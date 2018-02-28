@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C468932046FA3700AA8BFF /* LBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C468912046FA3700AA8BFF /* LBLoginViewController.m */; };
+		41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C468922046FA3700AA8BFF /* LBLoginViewController.xib */; };
+		41C468992047031700AA8BFF /* LBForgetPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C468972047031700AA8BFF /* LBForgetPassWordVC.m */; };
+		41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C468982047031700AA8BFF /* LBForgetPassWordVC.xib */; };
+		41C4689F2047062200AA8BFF /* LBRegistPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C4689D2047062200AA8BFF /* LBRegistPasswordVC.m */; };
+		41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4689E2047062200AA8BFF /* LBRegistPasswordVC.xib */; };
 		41E8F1EE2045A135007D650C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1ED2045A135007D650C /* AppDelegate.m */; };
 		41E8F1F12045A135007D650C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1F02045A135007D650C /* ViewController.m */; };
 		41E8F1F42045A135007D650C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F22045A135007D650C /* Main.storyboard */; };
@@ -16,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41C468902046FA3700AA8BFF /* LBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBLoginViewController.h; sourceTree = "<group>"; };
+		41C468912046FA3700AA8BFF /* LBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBLoginViewController.m; sourceTree = "<group>"; };
+		41C468922046FA3700AA8BFF /* LBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBLoginViewController.xib; sourceTree = "<group>"; };
+		41C468962047031700AA8BFF /* LBForgetPassWordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBForgetPassWordVC.h; sourceTree = "<group>"; };
+		41C468972047031700AA8BFF /* LBForgetPassWordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBForgetPassWordVC.m; sourceTree = "<group>"; };
+		41C468982047031700AA8BFF /* LBForgetPassWordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBForgetPassWordVC.xib; sourceTree = "<group>"; };
+		41C4689C2047062200AA8BFF /* LBRegistPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBRegistPasswordVC.h; sourceTree = "<group>"; };
+		41C4689D2047062200AA8BFF /* LBRegistPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBRegistPasswordVC.m; sourceTree = "<group>"; };
+		41C4689E2047062200AA8BFF /* LBRegistPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBRegistPasswordVC.xib; sourceTree = "<group>"; };
 		41E8F1E92045A135007D650C /* LanBaoAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanBaoAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E8F1EC2045A135007D650C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41E8F1ED2045A135007D650C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +54,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C4688F2046F9FF00AA8BFF /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				41C468902046FA3700AA8BFF /* LBLoginViewController.h */,
+				41C468912046FA3700AA8BFF /* LBLoginViewController.m */,
+				41C468922046FA3700AA8BFF /* LBLoginViewController.xib */,
+			);
+			path = "Login(登录)";
+			sourceTree = "<group>";
+		};
+		41C46895204701E700AA8BFF /* ForgetPassWord(忘记密码) */ = {
+			isa = PBXGroup;
+			children = (
+				41C468962047031700AA8BFF /* LBForgetPassWordVC.h */,
+				41C468972047031700AA8BFF /* LBForgetPassWordVC.m */,
+				41C468982047031700AA8BFF /* LBForgetPassWordVC.xib */,
+			);
+			path = "ForgetPassWord(忘记密码)";
+			sourceTree = "<group>";
+		};
+		41C4689B204705ED00AA8BFF /* Register(注册) */ = {
+			isa = PBXGroup;
+			children = (
+				41C4689C2047062200AA8BFF /* LBRegistPasswordVC.h */,
+				41C4689D2047062200AA8BFF /* LBRegistPasswordVC.m */,
+				41C4689E2047062200AA8BFF /* LBRegistPasswordVC.xib */,
+			);
+			path = "Register(注册)";
+			sourceTree = "<group>";
+		};
 		41E8F1E02045A135007D650C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +103,9 @@
 		41E8F1EB2045A135007D650C /* LanBaoAPP */ = {
 			isa = PBXGroup;
 			children = (
+				41C4689B204705ED00AA8BFF /* Register(注册) */,
+				41C46895204701E700AA8BFF /* ForgetPassWord(忘记密码) */,
+				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
 				41E8F1EC2045A135007D650C /* AppDelegate.h */,
 				41E8F1ED2045A135007D650C /* AppDelegate.m */,
 				41E8F1EF2045A135007D650C /* ViewController.h */,
@@ -130,9 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
+				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
 				41E8F1F42045A135007D650C /* Main.storyboard in Resources */,
+				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C468932046FA3700AA8BFF /* LBLoginViewController.m in Sources */,
 				41E8F1F12045A135007D650C /* ViewController.m in Sources */,
+				41C468992047031700AA8BFF /* LBForgetPassWordVC.m in Sources */,
+				41C4689F2047062200AA8BFF /* LBRegistPasswordVC.m in Sources */,
 				41E8F1FC2045A135007D650C /* main.m in Sources */,
 				41E8F1EE2045A135007D650C /* AppDelegate.m in Sources */,
 			);

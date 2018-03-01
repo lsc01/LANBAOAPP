@@ -8,6 +8,8 @@
 
 #import "LBLoginViewController.h"
 #import "LBForgetPassWordVC.h"
+#import "LBHomeViewController.h"
+#import "AppDelegate.h"
 
 @interface LBLoginViewController ()
 
@@ -37,6 +39,17 @@
 }
 
 - (IBAction)loginClick:(UIButton *)sender {
+    
+    [self dismissViewControllerAnimated:NO completion:^{
+        LBHomeViewController * homeVC = [[LBHomeViewController alloc] init];
+        
+        UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+        nav.navigationBar.translucent = NO;
+        AppDelegate *delegate = (AppDelegate *) [UIApplication sharedApplication].delegate;
+        delegate.window.rootViewController = nav;
+    }];
+    
+    
     
 }
 - (IBAction)forgetPwdClick:(UIButton *)sender {

@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A94204857E5004861F7 /* LBSysSettingVC.m */; };
+		41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A972048581A004861F7 /* LBMessageCenterVC.m */; };
+		41748A9B20485837004861F7 /* LBQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A9A20485837004861F7 /* LBQuestionViewController.m */; };
+		41748A9E2048584F004861F7 /* LBFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A9D2048584F004861F7 /* LBFeedbackViewController.m */; };
+		41748AA220485958004861F7 /* LBSysSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748AA020485958004861F7 /* LBSysSettingTableViewCell.m */; };
+		41748AA320485958004861F7 /* LBSysSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41748AA120485958004861F7 /* LBSysSettingTableViewCell.xib */; };
+		41748AA620485C40004861F7 /* LBUserHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748AA520485C40004861F7 /* LBUserHelpViewController.m */; };
 		41C468932046FA3700AA8BFF /* LBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C468912046FA3700AA8BFF /* LBLoginViewController.m */; };
 		41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C468922046FA3700AA8BFF /* LBLoginViewController.xib */; };
 		41C468992047031700AA8BFF /* LBForgetPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C468972047031700AA8BFF /* LBForgetPassWordVC.m */; };
 		41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C468982047031700AA8BFF /* LBForgetPassWordVC.xib */; };
 		41C4689F2047062200AA8BFF /* LBRegistPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C4689D2047062200AA8BFF /* LBRegistPasswordVC.m */; };
 		41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C4689E2047062200AA8BFF /* LBRegistPasswordVC.xib */; };
+		41C890392048418C0000B7C3 /* LBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C890382048418C0000B7C3 /* LBHomeViewController.m */; };
+		41C8903D204847AA0000B7C3 /* LBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8903C204847AA0000B7C3 /* LBMyViewController.m */; };
+		41C8904220484C5C0000B7C3 /* LBMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8904020484C5C0000B7C3 /* LBMineTableViewCell.m */; };
+		41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C8904120484C5C0000B7C3 /* LBMineTableViewCell.xib */; };
+		41C8904720484C6E0000B7C3 /* LBMineHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8904520484C6E0000B7C3 /* LBMineHeadTableViewCell.m */; };
+		41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C8904620484C6E0000B7C3 /* LBMineHeadTableViewCell.xib */; };
+		41C8904B2048521B0000B7C3 /* LBMyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8904A2048521B0000B7C3 /* LBMyDataViewController.m */; };
+		41C8904F204853340000B7C3 /* LBMyDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8904D204853340000B7C3 /* LBMyDataTableViewCell.m */; };
+		41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C8904E204853340000B7C3 /* LBMyDataTableViewCell.xib */; };
+		41C89054204853C40000B7C3 /* LBMydataHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C89052204853C40000B7C3 /* LBMydataHeadTableViewCell.m */; };
+		41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C89053204853C40000B7C3 /* LBMydataHeadTableViewCell.xib */; };
 		41E8F1EE2045A135007D650C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1ED2045A135007D650C /* AppDelegate.m */; };
 		41E8F1F12045A135007D650C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1F02045A135007D650C /* ViewController.m */; };
 		41E8F1F42045A135007D650C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F22045A135007D650C /* Main.storyboard */; };
@@ -22,6 +40,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41748A93204857E5004861F7 /* LBSysSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSysSettingVC.h; sourceTree = "<group>"; };
+		41748A94204857E5004861F7 /* LBSysSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSysSettingVC.m; sourceTree = "<group>"; };
+		41748A962048581A004861F7 /* LBMessageCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMessageCenterVC.h; sourceTree = "<group>"; };
+		41748A972048581A004861F7 /* LBMessageCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMessageCenterVC.m; sourceTree = "<group>"; };
+		41748A9920485837004861F7 /* LBQuestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBQuestionViewController.h; sourceTree = "<group>"; };
+		41748A9A20485837004861F7 /* LBQuestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBQuestionViewController.m; sourceTree = "<group>"; };
+		41748A9C2048584F004861F7 /* LBFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBFeedbackViewController.h; sourceTree = "<group>"; };
+		41748A9D2048584F004861F7 /* LBFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBFeedbackViewController.m; sourceTree = "<group>"; };
+		41748A9F20485958004861F7 /* LBSysSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSysSettingTableViewCell.h; sourceTree = "<group>"; };
+		41748AA020485958004861F7 /* LBSysSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSysSettingTableViewCell.m; sourceTree = "<group>"; };
+		41748AA120485958004861F7 /* LBSysSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBSysSettingTableViewCell.xib; sourceTree = "<group>"; };
+		41748AA420485C40004861F7 /* LBUserHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBUserHelpViewController.h; sourceTree = "<group>"; };
+		41748AA520485C40004861F7 /* LBUserHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBUserHelpViewController.m; sourceTree = "<group>"; };
 		41C468902046FA3700AA8BFF /* LBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBLoginViewController.h; sourceTree = "<group>"; };
 		41C468912046FA3700AA8BFF /* LBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBLoginViewController.m; sourceTree = "<group>"; };
 		41C468922046FA3700AA8BFF /* LBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBLoginViewController.xib; sourceTree = "<group>"; };
@@ -31,6 +62,24 @@
 		41C4689C2047062200AA8BFF /* LBRegistPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBRegistPasswordVC.h; sourceTree = "<group>"; };
 		41C4689D2047062200AA8BFF /* LBRegistPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBRegistPasswordVC.m; sourceTree = "<group>"; };
 		41C4689E2047062200AA8BFF /* LBRegistPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBRegistPasswordVC.xib; sourceTree = "<group>"; };
+		41C890372048418C0000B7C3 /* LBHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeViewController.h; sourceTree = "<group>"; };
+		41C890382048418C0000B7C3 /* LBHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeViewController.m; sourceTree = "<group>"; };
+		41C8903B204847AA0000B7C3 /* LBMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMyViewController.h; sourceTree = "<group>"; };
+		41C8903C204847AA0000B7C3 /* LBMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMyViewController.m; sourceTree = "<group>"; };
+		41C8903F20484C5C0000B7C3 /* LBMineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMineTableViewCell.h; sourceTree = "<group>"; };
+		41C8904020484C5C0000B7C3 /* LBMineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMineTableViewCell.m; sourceTree = "<group>"; };
+		41C8904120484C5C0000B7C3 /* LBMineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMineTableViewCell.xib; sourceTree = "<group>"; };
+		41C8904420484C6E0000B7C3 /* LBMineHeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMineHeadTableViewCell.h; sourceTree = "<group>"; };
+		41C8904520484C6E0000B7C3 /* LBMineHeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMineHeadTableViewCell.m; sourceTree = "<group>"; };
+		41C8904620484C6E0000B7C3 /* LBMineHeadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMineHeadTableViewCell.xib; sourceTree = "<group>"; };
+		41C890492048521A0000B7C3 /* LBMyDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMyDataViewController.h; sourceTree = "<group>"; };
+		41C8904A2048521B0000B7C3 /* LBMyDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMyDataViewController.m; sourceTree = "<group>"; };
+		41C8904C204853340000B7C3 /* LBMyDataTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMyDataTableViewCell.h; sourceTree = "<group>"; };
+		41C8904D204853340000B7C3 /* LBMyDataTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMyDataTableViewCell.m; sourceTree = "<group>"; };
+		41C8904E204853340000B7C3 /* LBMyDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMyDataTableViewCell.xib; sourceTree = "<group>"; };
+		41C89051204853C40000B7C3 /* LBMydataHeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMydataHeadTableViewCell.h; sourceTree = "<group>"; };
+		41C89052204853C40000B7C3 /* LBMydataHeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMydataHeadTableViewCell.m; sourceTree = "<group>"; };
+		41C89053204853C40000B7C3 /* LBMydataHeadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMydataHeadTableViewCell.xib; sourceTree = "<group>"; };
 		41E8F1E92045A135007D650C /* LanBaoAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanBaoAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E8F1EC2045A135007D650C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41E8F1ED2045A135007D650C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +133,59 @@
 			path = "Register(注册)";
 			sourceTree = "<group>";
 		};
+		41C89036204841570000B7C3 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				41C890372048418C0000B7C3 /* LBHomeViewController.h */,
+				41C890382048418C0000B7C3 /* LBHomeViewController.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		41C8903A2048479A0000B7C3 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				41C8903E20484C3B0000B7C3 /* VIew */,
+				41C8903B204847AA0000B7C3 /* LBMyViewController.h */,
+				41C8903C204847AA0000B7C3 /* LBMyViewController.m */,
+				41C890492048521A0000B7C3 /* LBMyDataViewController.h */,
+				41C8904A2048521B0000B7C3 /* LBMyDataViewController.m */,
+				41748A93204857E5004861F7 /* LBSysSettingVC.h */,
+				41748A94204857E5004861F7 /* LBSysSettingVC.m */,
+				41748A962048581A004861F7 /* LBMessageCenterVC.h */,
+				41748A972048581A004861F7 /* LBMessageCenterVC.m */,
+				41748A9920485837004861F7 /* LBQuestionViewController.h */,
+				41748A9A20485837004861F7 /* LBQuestionViewController.m */,
+				41748A9C2048584F004861F7 /* LBFeedbackViewController.h */,
+				41748A9D2048584F004861F7 /* LBFeedbackViewController.m */,
+				41748AA420485C40004861F7 /* LBUserHelpViewController.h */,
+				41748AA520485C40004861F7 /* LBUserHelpViewController.m */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		41C8903E20484C3B0000B7C3 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				41C8903F20484C5C0000B7C3 /* LBMineTableViewCell.h */,
+				41C8904020484C5C0000B7C3 /* LBMineTableViewCell.m */,
+				41C8904120484C5C0000B7C3 /* LBMineTableViewCell.xib */,
+				41C8904420484C6E0000B7C3 /* LBMineHeadTableViewCell.h */,
+				41C8904520484C6E0000B7C3 /* LBMineHeadTableViewCell.m */,
+				41C8904620484C6E0000B7C3 /* LBMineHeadTableViewCell.xib */,
+				41C8904C204853340000B7C3 /* LBMyDataTableViewCell.h */,
+				41C8904D204853340000B7C3 /* LBMyDataTableViewCell.m */,
+				41C8904E204853340000B7C3 /* LBMyDataTableViewCell.xib */,
+				41C89051204853C40000B7C3 /* LBMydataHeadTableViewCell.h */,
+				41C89052204853C40000B7C3 /* LBMydataHeadTableViewCell.m */,
+				41C89053204853C40000B7C3 /* LBMydataHeadTableViewCell.xib */,
+				41748A9F20485958004861F7 /* LBSysSettingTableViewCell.h */,
+				41748AA020485958004861F7 /* LBSysSettingTableViewCell.m */,
+				41748AA120485958004861F7 /* LBSysSettingTableViewCell.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
 		41E8F1E02045A135007D650C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +205,8 @@
 		41E8F1EB2045A135007D650C /* LanBaoAPP */ = {
 			isa = PBXGroup;
 			children = (
+				41C8903A2048479A0000B7C3 /* Mine(我的) */,
+				41C89036204841570000B7C3 /* Home(首页) */,
 				41C4689B204705ED00AA8BFF /* Register(注册) */,
 				41C46895204701E700AA8BFF /* ForgetPassWord(忘记密码) */,
 				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
@@ -178,12 +282,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
+				41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */,
+				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
+				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
 				41E8F1F42045A135007D650C /* Main.storyboard in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
+				41748AA320485958004861F7 /* LBSysSettingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,10 +304,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C468932046FA3700AA8BFF /* LBLoginViewController.m in Sources */,
+				41748AA620485C40004861F7 /* LBUserHelpViewController.m in Sources */,
 				41E8F1F12045A135007D650C /* ViewController.m in Sources */,
+				41C8904B2048521B0000B7C3 /* LBMyDataViewController.m in Sources */,
+				41C8903D204847AA0000B7C3 /* LBMyViewController.m in Sources */,
+				41748AA220485958004861F7 /* LBSysSettingTableViewCell.m in Sources */,
+				41C8904220484C5C0000B7C3 /* LBMineTableViewCell.m in Sources */,
 				41C468992047031700AA8BFF /* LBForgetPassWordVC.m in Sources */,
 				41C4689F2047062200AA8BFF /* LBRegistPasswordVC.m in Sources */,
+				41C8904F204853340000B7C3 /* LBMyDataTableViewCell.m in Sources */,
+				41748A9E2048584F004861F7 /* LBFeedbackViewController.m in Sources */,
+				41C89054204853C40000B7C3 /* LBMydataHeadTableViewCell.m in Sources */,
+				41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */,
+				41748A9B20485837004861F7 /* LBQuestionViewController.m in Sources */,
 				41E8F1FC2045A135007D650C /* main.m in Sources */,
+				41C890392048418C0000B7C3 /* LBHomeViewController.m in Sources */,
+				41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */,
+				41C8904720484C6E0000B7C3 /* LBMineHeadTableViewCell.m in Sources */,
 				41E8F1EE2045A135007D650C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

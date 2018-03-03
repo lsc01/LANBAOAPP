@@ -205,11 +205,19 @@
 		41E8F1EB2045A135007D650C /* LanBaoAPP */ = {
 			isa = PBXGroup;
 			children = (
-				41C8903A2048479A0000B7C3 /* Mine(我的) */,
-				41C89036204841570000B7C3 /* Home(首页) */,
+				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
 				41C4689B204705ED00AA8BFF /* Register(注册) */,
 				41C46895204701E700AA8BFF /* ForgetPassWord(忘记密码) */,
-				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
+				41C89036204841570000B7C3 /* Home(首页) */,
+				41C8903A2048479A0000B7C3 /* Mine(我的) */,
+				57DB4474204A733F00B88DA9 /* Other */,
+			);
+			path = LanBaoAPP;
+			sourceTree = "<group>";
+		};
+		57DB4474204A733F00B88DA9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				41E8F1EC2045A135007D650C /* AppDelegate.h */,
 				41E8F1ED2045A135007D650C /* AppDelegate.m */,
 				41E8F1EF2045A135007D650C /* ViewController.h */,
@@ -220,7 +228,7 @@
 				41E8F1FA2045A135007D650C /* Info.plist */,
 				41E8F1FB2045A135007D650C /* main.m */,
 			);
-			path = LanBaoAPP;
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,7 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N62V9YSL6L;
+				DEVELOPMENT_TEAM = 5W52S85U9Q;
 				INFOPLIST_FILE = LanBaoAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsc.LanBaoAPP;
@@ -470,7 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N62V9YSL6L;
+				DEVELOPMENT_TEAM = 5W52S85U9Q;
 				INFOPLIST_FILE = LanBaoAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsc.LanBaoAPP;

@@ -1736,13 +1736,10 @@
 		41E8F1EB2045A135007D650C /* LanBaoAPP */ = {
 			isa = PBXGroup;
 			children = (
-				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
 				41C4689B204705ED00AA8BFF /* Register(注册) */,
 				41C46895204701E700AA8BFF /* ForgetPassWord(忘记密码) */,
-
 				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
 				41AA51E6204D8DCA007DA1FA /* Public */,
-
 				41C89036204841570000B7C3 /* Home(首页) */,
 				41C8903A2048479A0000B7C3 /* Mine(我的) */,
 				57DB4474204A733F00B88DA9 /* Other */,
@@ -1753,7 +1750,6 @@
 		57DB4474204A733F00B88DA9 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-
 				41E8F1EC2045A135007D650C /* AppDelegate.h */,
 				41E8F1ED2045A135007D650C /* AppDelegate.m */,
 				41AA545E204D9070007DA1FA /* PrefixHeader.pch */,
@@ -2129,7 +2125,8 @@
 				41E8F1F32045A135007D650C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = "../../../../../../../../../Users/lsc/Downloads/Git下载/LANBAOAPP/LanBaoAPP/LanBaoAPP";
+			sourceTree = SDKROOT;
 		};
 		41E8F1F72045A135007D650C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -2252,13 +2249,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-
-				DEVELOPMENT_TEAM = N62V9YSL6L;
+				DEVELOPMENT_TEAM = 5W52S85U9Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LanBaoAPP/PrefixHeader.pch";
-
-				DEVELOPMENT_TEAM = 5W52S85U9Q;
-
 				INFOPLIST_FILE = LanBaoAPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2274,13 +2267,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-
-				DEVELOPMENT_TEAM = N62V9YSL6L;
+				DEVELOPMENT_TEAM = 5W52S85U9Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LanBaoAPP/PrefixHeader.pch";
-
-				DEVELOPMENT_TEAM = 5W52S85U9Q;
-
 				INFOPLIST_FILE = LanBaoAPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

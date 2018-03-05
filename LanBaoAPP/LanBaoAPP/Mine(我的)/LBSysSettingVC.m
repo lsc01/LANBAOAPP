@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"系统设置";
-    self.view.backgroundColor = [UIColor whiteColor];
+    
     self.arrTitles = @[@"清除缓存",@"关于我们"];
     [self setUI];
 }

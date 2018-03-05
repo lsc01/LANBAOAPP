@@ -24,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"常见问题";
-    self.view.backgroundColor = [UIColor whiteColor];
+    
     self.arrTitles = @[@"如何清除缓存?",@"如何连接蓝牙音响?",@"如何添加本地音乐"];
     [self setUI];
 }

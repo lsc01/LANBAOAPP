@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  LanBaoAPP
+//
+//  Created by lsc on 2018/3/5.
+//  Copyright © 2018年 lsc. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ALLMacrosHeader.h"
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import "MJExtension.h"
+//#import "ReactiveObjC.h"
+//#import "SVProgressHUD.h"
+//#import "UIAlertView+Block.h"
+#import "MJRefresh.h"
+//#import "LinqToObjectiveC.h"
+//#import "BSEUserInfo.h"//APP用户信息
+#import "UIButton+BackgroundColor.h"
+//#import "BSEHttpTool.h"
+
+// 是否支持富文本显示(表情这些显示)
+//#define kTestChatAttachment 1
+//
+//#import "CommonLibrary.h"
+//#import "TIMAdapter.h"
+//#import "AppDelegate.h"
+//#import "ChatHeaders.h"
+//#import <AVFoundation/AVAsset.h>
+//#import <AVFoundation/AVFoundation.h>
+
+#endif
+#endif /* PrefixHeader_pch */

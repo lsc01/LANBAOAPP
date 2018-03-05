@@ -19,15 +19,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"首页";
-    self.view.backgroundColor = [UIColor whiteColor];
     
     [self setnav];
     
 }
 
 -(void)setnav{
-    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithTitle:@"菜单" style:UIBarButtonItemStylePlain target:self action:@selector(leftBarbuttonClick)];
-    self.navigationItem.leftBarButtonItem = item;
+    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithTitle:@"个人" style:UIBarButtonItemStylePlain target:self action:@selector(leftBarbuttonClick)];
+    self.navigationItem.rightBarButtonItem = item;
 }
 
 -(void)leftBarbuttonClick{

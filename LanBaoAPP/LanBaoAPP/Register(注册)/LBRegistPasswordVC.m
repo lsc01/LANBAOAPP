@@ -16,7 +16,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *btnLogin;
 @property (weak, nonatomic) IBOutlet UIButton *btnSecurityCode;
-@property (weak, nonatomic) IBOutlet UIButton *btnClose;
+
 @end
 
 @implementation LBRegistPasswordVC
@@ -24,30 +24,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"注册";
     [self setUI];
 }
 
 -(void)setUI{
-    self.btnLogin.layer.borderWidth =1;
-    self.btnLogin.layer.borderColor = [UIColor grayColor].CGColor;
-    self.btnLogin.clipsToBounds = YES;
-    self.btnLogin.layer.cornerRadius = 10;
-    
-    
-    self.btnSecurityCode.layer.borderWidth =1;
-    self.btnSecurityCode.layer.borderColor = [UIColor grayColor].CGColor;
+    [self.btnSecurityCode setBackgroundColor:kAPPBaseColor forState:UIControlStateNormal];
     self.btnSecurityCode.clipsToBounds = YES;
     self.btnSecurityCode.layer.cornerRadius = 3;
+    
+    self.btnLogin.clipsToBounds = YES;
+    self.btnLogin.layer.cornerRadius = 10;
+    [self.btnLogin setBackgroundColor:kAPPBaseColor forState:UIControlStateNormal];
 }
 - (IBAction)getSecurityCodeClick:(UIButton *)sender {
 }
 - (IBAction)loginClick:(UIButton *)sender {
-}
-- (IBAction)closeViewClick:(id)sender {
-    
-    [self dismissViewControllerAnimated:YES completion:^{
-        
-    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -6,8 +6,8 @@
 //  Copyright © 2018年 lsc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CSBaseFuncVC.h"
 
-@interface LBQuestionViewController : UIViewController
+@interface LBQuestionViewController : CSBaseFuncVC
 
 @end

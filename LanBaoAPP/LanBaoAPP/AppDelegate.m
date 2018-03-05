@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BSENavigationController.h"
+#import "LBFirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LBFirstViewController * vc = [[LBFirstViewController alloc] init];
+    BSENavigationController *Nav = [[BSENavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = Nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -216,10 +216,10 @@
 		41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C89053204853C40000B7C3 /* LBMydataHeadTableViewCell.xib */; };
 		41E8F1EE2045A135007D650C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1ED2045A135007D650C /* AppDelegate.m */; };
 		41E8F1F12045A135007D650C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1F02045A135007D650C /* ViewController.m */; };
-		41E8F1F42045A135007D650C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F22045A135007D650C /* Main.storyboard */; };
 		41E8F1F62045A135007D650C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F52045A135007D650C /* Assets.xcassets */; };
 		41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F72045A135007D650C /* LaunchScreen.storyboard */; };
 		41E8F1FC2045A135007D650C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1FB2045A135007D650C /* main.m */; };
+		57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BBC204E2C4C004D710F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -641,11 +641,11 @@
 		41E8F1ED2045A135007D650C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		41E8F1EF2045A135007D650C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		41E8F1F02045A135007D650C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		41E8F1F32045A135007D650C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41E8F1F52045A135007D650C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E8F1F82045A135007D650C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E8F1FA2045A135007D650C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41E8F1FB2045A135007D650C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B36BBC204E2C4C004D710F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		87C60637337E8A2C4239552D /* libPods-LanBaoAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LanBaoAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F325755B6942008B888A7 /* Pods-LanBaoAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanBaoAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanBaoAPP/Pods-LanBaoAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1755,7 +1755,7 @@
 				41AA545E204D9070007DA1FA /* PrefixHeader.pch */,
 				41E8F1EF2045A135007D650C /* ViewController.h */,
 				41E8F1F02045A135007D650C /* ViewController.m */,
-				41E8F1F22045A135007D650C /* Main.storyboard */,
+				57B36BBC204E2C4C004D710F /* Main.storyboard */,
 				41E8F1F52045A135007D650C /* Assets.xcassets */,
 				41E8F1F72045A135007D650C /* LaunchScreen.storyboard */,
 				41E8F1FA2045A135007D650C /* Info.plist */,
@@ -1846,13 +1846,13 @@
 				41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */,
+				57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */,
 				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
 				41AA5463204D99E9007DA1FA /* LBFirstViewController.xib in Resources */,
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
-				41E8F1F42045A135007D650C /* Main.storyboard in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
 				41748AA320485958004861F7 /* LBSysSettingTableViewCell.xib in Resources */,
 			);
@@ -2119,15 +2119,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41E8F1F22045A135007D650C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41E8F1F32045A135007D650C /* Base */,
-			);
-			name = Main.storyboard;
-			path = "../../../../../../../../../Users/lsc/Downloads/Git下载/LANBAOAPP/LanBaoAPP/LanBaoAPP";
-			sourceTree = SDKROOT;
-		};
 		41E8F1F72045A135007D650C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

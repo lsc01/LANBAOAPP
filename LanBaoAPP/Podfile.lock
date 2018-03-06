@@ -34,10 +34,12 @@ PODS:
   - SDWebImage/GIF (4.2.2):
     - FLAnimatedImage (~> 1.0)
     - SDWebImage/Core
+  - STPopup (1.8.3)
   - SVProgressHUD (2.2.2)
   - TZImagePickerController (1.9.6)
   - UITableView+FDTemplateLayoutCell (1.6)
   - YYText (1.0.7)
+  - zhPopupController (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -49,10 +51,12 @@ DEPENDENCIES:
   - PYPhotoBrowser (~> 1.5.6)
   - SDCycleScrollView (~> 1.74)
   - SDWebImage
+  - STPopup
   - SVProgressHUD (~> 2.2.2)
   - TZImagePickerController
   - UITableView+FDTemplateLayoutCell
   - YYText (~> 1.0.7)
+  - zhPopupController (~> 1.0.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -67,11 +71,13 @@ SPEC CHECKSUMS:
   PYPhotoBrowser: 74f6526b290069a55943ed92e5a21f84c6d90ecf
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  STPopup: da1167250a01584af7bcccb898653185f223ec46
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   TZImagePickerController: 276dc7c0cc70da9ee354046474b405d87ef81c89
   UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  zhPopupController: 411af38e63764130e4ae4ba5cde12c776dc84824
 
-PODFILE CHECKSUM: 1ad44037a99e7e677bdb24ffc5e740521d20f160
+PODFILE CHECKSUM: 5eaa67ee3dbfee55bce71b63e11d4f4ed1739f8e
 
 COCOAPODS: 1.2.1

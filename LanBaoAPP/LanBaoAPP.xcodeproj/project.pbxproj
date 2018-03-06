@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2D5F6EA688E969528B1ABD7A /* libPods-LanBaoAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C60637337E8A2C4239552D /* libPods-LanBaoAPP.a */; };
+		4163DDC4204EEDD100B8AC7B /* JYAskForLeaveDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDC3204EEDD000B8AC7B /* JYAskForLeaveDetailCell.m */; };
+		4163DDC7204EEE4F00B8AC7B /* JYAskForLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDC5204EEE4E00B8AC7B /* JYAskForLeaveViewController.m */; };
+		4163DDD9204EF02E00B8AC7B /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */; };
+		4163DDDA204EF02E00B8AC7B /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCD204EF02D00B8AC7B /* BRAddressPickerView.m */; };
+		4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4163DDCE204EF02D00B8AC7B /* BRCity.plist */; };
+		4163DDDC204EF02E00B8AC7B /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDD1204EF02D00B8AC7B /* BRBaseView.m */; };
+		4163DDDD204EF02E00B8AC7B /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDD5204EF02D00B8AC7B /* BRDatePickerView.m */; };
+		4163DDDE204EF02E00B8AC7B /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDD8204EF02D00B8AC7B /* BRStringPickerView.m */; };
+		4163DDE4204EF40700B8AC7B /* JYBottomSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE1204EF40700B8AC7B /* JYBottomSelectCell.m */; };
+		4163DDE5204EF40700B8AC7B /* JYBottomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */; };
 		41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A94204857E5004861F7 /* LBSysSettingVC.m */; };
 		41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A972048581A004861F7 /* LBMessageCenterVC.m */; };
 		41748A9B20485837004861F7 /* LBQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A9A20485837004861F7 /* LBQuestionViewController.m */; };
@@ -233,6 +243,26 @@
 
 /* Begin PBXFileReference section */
 		403FEB2473D380F7CDBB8962 /* Pods-LanBaoAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanBaoAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanBaoAPP/Pods-LanBaoAPP.release.xcconfig"; sourceTree = "<group>"; };
+		4163DDC2204EEDD000B8AC7B /* JYAskForLeaveDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAskForLeaveDetailCell.h; sourceTree = "<group>"; };
+		4163DDC3204EEDD000B8AC7B /* JYAskForLeaveDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAskForLeaveDetailCell.m; sourceTree = "<group>"; };
+		4163DDC5204EEE4E00B8AC7B /* JYAskForLeaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAskForLeaveViewController.m; sourceTree = "<group>"; };
+		4163DDC6204EEE4F00B8AC7B /* JYAskForLeaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAskForLeaveViewController.h; sourceTree = "<group>"; };
+		4163DDCA204EF02D00B8AC7B /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
+		4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
+		4163DDCC204EF02D00B8AC7B /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
+		4163DDCD204EF02D00B8AC7B /* BRAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressPickerView.m; sourceTree = "<group>"; };
+		4163DDCE204EF02D00B8AC7B /* BRCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BRCity.plist; sourceTree = "<group>"; };
+		4163DDD0204EF02D00B8AC7B /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
+		4163DDD1204EF02D00B8AC7B /* BRBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBaseView.m; sourceTree = "<group>"; };
+		4163DDD2204EF02D00B8AC7B /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		4163DDD4204EF02D00B8AC7B /* BRDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDatePickerView.h; sourceTree = "<group>"; };
+		4163DDD5204EF02D00B8AC7B /* BRDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDatePickerView.m; sourceTree = "<group>"; };
+		4163DDD7204EF02D00B8AC7B /* BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRStringPickerView.h; sourceTree = "<group>"; };
+		4163DDD8204EF02D00B8AC7B /* BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRStringPickerView.m; sourceTree = "<group>"; };
+		4163DDE0204EF40700B8AC7B /* JYBottomSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBottomSelectCell.h; sourceTree = "<group>"; };
+		4163DDE1204EF40700B8AC7B /* JYBottomSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBottomSelectCell.m; sourceTree = "<group>"; };
+		4163DDE2204EF40700B8AC7B /* JYBottomSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBottomSelectView.h; sourceTree = "<group>"; };
+		4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBottomSelectView.m; sourceTree = "<group>"; };
 		41748A93204857E5004861F7 /* LBSysSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSysSettingVC.h; sourceTree = "<group>"; };
 		41748A94204857E5004861F7 /* LBSysSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSysSettingVC.m; sourceTree = "<group>"; };
 		41748A962048581A004861F7 /* LBMessageCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMessageCenterVC.h; sourceTree = "<group>"; };
@@ -685,9 +715,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4163DDC8204EF02D00B8AC7B /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4163DDC9204EF02D00B8AC7B /* AddressPickerView */,
+				4163DDCF204EF02D00B8AC7B /* Base */,
+				4163DDD2204EF02D00B8AC7B /* BRPickerView.h */,
+				4163DDD3204EF02D00B8AC7B /* DatePickerView */,
+				4163DDD6204EF02D00B8AC7B /* StringPickerView */,
+			);
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+		4163DDC9204EF02D00B8AC7B /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4163DDCA204EF02D00B8AC7B /* BRAddressModel.h */,
+				4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */,
+				4163DDCC204EF02D00B8AC7B /* BRAddressPickerView.h */,
+				4163DDCD204EF02D00B8AC7B /* BRAddressPickerView.m */,
+				4163DDCE204EF02D00B8AC7B /* BRCity.plist */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		4163DDCF204EF02D00B8AC7B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4163DDD0204EF02D00B8AC7B /* BRBaseView.h */,
+				4163DDD1204EF02D00B8AC7B /* BRBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4163DDD3204EF02D00B8AC7B /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4163DDD4204EF02D00B8AC7B /* BRDatePickerView.h */,
+				4163DDD5204EF02D00B8AC7B /* BRDatePickerView.m */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		4163DDD6204EF02D00B8AC7B /* StringPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4163DDD7204EF02D00B8AC7B /* BRStringPickerView.h */,
+				4163DDD8204EF02D00B8AC7B /* BRStringPickerView.m */,
+			);
+			path = StringPickerView;
+			sourceTree = "<group>";
+		};
+		4163DDDF204EF40700B8AC7B /* JYBottomSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				4163DDE0204EF40700B8AC7B /* JYBottomSelectCell.h */,
+				4163DDE1204EF40700B8AC7B /* JYBottomSelectCell.m */,
+				4163DDE2204EF40700B8AC7B /* JYBottomSelectView.h */,
+				4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */,
+			);
+			path = JYBottomSelectView;
+			sourceTree = "<group>";
+		};
 		41AA51E6204D8DCA007DA1FA /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				4163DDDF204EF40700B8AC7B /* JYBottomSelectView */,
+				4163DDC8204EF02D00B8AC7B /* BRPickerView */,
 				41AA51F3204D8F23007DA1FA /* Expand(扩展) */,
 				41AA51E7204D8DF7007DA1FA /* Basic(基类) */,
 			);
@@ -1681,6 +1775,8 @@
 				41748A9D2048584F004861F7 /* LBFeedbackViewController.m */,
 				41748AA420485C40004861F7 /* LBUserHelpViewController.h */,
 				41748AA520485C40004861F7 /* LBUserHelpViewController.m */,
+				4163DDC6204EEE4F00B8AC7B /* JYAskForLeaveViewController.h */,
+				4163DDC5204EEE4E00B8AC7B /* JYAskForLeaveViewController.m */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -1688,6 +1784,8 @@
 		41C8903E20484C3B0000B7C3 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				4163DDC2204EEDD000B8AC7B /* JYAskForLeaveDetailCell.h */,
+				4163DDC3204EEDD000B8AC7B /* JYAskForLeaveDetailCell.m */,
 				41C8903F20484C5C0000B7C3 /* LBMineTableViewCell.h */,
 				41C8904020484C5C0000B7C3 /* LBMineTableViewCell.m */,
 				41C8904120484C5C0000B7C3 /* LBMineTableViewCell.xib */,
@@ -1863,6 +1961,7 @@
 				57B36BCC204E7763004D710F /* LBQuestionHeaderView.xib in Resources */,
 				57B36BD1204E7791004D710F /* LBQuestionTableViewCell.xib in Resources */,
 				57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */,
+				4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */,
 				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
@@ -1936,6 +2035,7 @@
 				41AA5456204D8F24007DA1FA /* NSDictionary+TGGetURLParameters.m in Sources */,
 				41AA53E0204D8F23007DA1FA /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				41AA53D9204D8F23007DA1FA /* NSURL+QueryDictionary.m in Sources */,
+				4163DDD9204EF02E00B8AC7B /* BRAddressModel.m in Sources */,
 				41C468932046FA3700AA8BFF /* LBLoginViewController.m in Sources */,
 				41AA5404204D8F24007DA1FA /* UIImage+GIF.m in Sources */,
 				41AA53AE204D8F23007DA1FA /* NSData+SDDataCache.m in Sources */,
@@ -1999,6 +2099,8 @@
 				41AA53B9204D8F23007DA1FA /* NSObject+AddProperty.m in Sources */,
 				41AA53D0204D8F23007DA1FA /* NSString+Score.m in Sources */,
 				41AA5436204D8F24007DA1FA /* UIView+Nib.m in Sources */,
+				4163DDDA204EF02E00B8AC7B /* BRAddressPickerView.m in Sources */,
+				4163DDDC204EF02E00B8AC7B /* BRBaseView.m in Sources */,
 				41AA53C4204D8F23007DA1FA /* NSString+Contains.m in Sources */,
 				41C8904220484C5C0000B7C3 /* LBMineTableViewCell.m in Sources */,
 				41AA540D204D8F24007DA1FA /* UIImageView+Addition.m in Sources */,
@@ -2009,6 +2111,7 @@
 				41AA5459204D8F24007DA1FA /* NSString+TGTimeInterval.m in Sources */,
 				41AA53BF204D8F23007DA1FA /* NSObject+KVOBlocks.m in Sources */,
 				41AA5408204D8F24007DA1FA /* UIImage+RemoteSize.m in Sources */,
+				4163DDC4204EEDD100B8AC7B /* JYAskForLeaveDetailCell.m in Sources */,
 				41AA53C8204D8F23007DA1FA /* NSString+Extension.m in Sources */,
 				41AA5462204D99E9007DA1FA /* LBFirstViewController.m in Sources */,
 				41AA53EC204D8F23007DA1FA /* UIButton+LXMImagePosition.m in Sources */,
@@ -2033,6 +2136,7 @@
 				41C8904F204853340000B7C3 /* LBMyDataTableViewCell.m in Sources */,
 				41AA5424204D8F24007DA1FA /* UITableView+iOS7Style.m in Sources */,
 				41748A9E2048584F004861F7 /* LBFeedbackViewController.m in Sources */,
+				4163DDDE204EF02E00B8AC7B /* BRStringPickerView.m in Sources */,
 				41AA53FB204D8F23007DA1FA /* UIFont-TTF.m in Sources */,
 				41AA5453204D8F24007DA1FA /* YHUtil.m in Sources */,
 				41AA5421204D8F24007DA1FA /* UIScrollView+APParallaxHeader.m in Sources */,
@@ -2041,6 +2145,7 @@
 				41AA53B1204D8F23007DA1FA /* NSDateFormatter+Make.m in Sources */,
 				41C89054204853C40000B7C3 /* LBMydataHeadTableViewCell.m in Sources */,
 				41AA53F8204D8F23007DA1FA /* UIDevice+PasscodeStatus.m in Sources */,
+				4163DDE4204EF40700B8AC7B /* JYBottomSelectCell.m in Sources */,
 				41AA544A204D8F24007DA1FA /* UIWebView+MetaParser.m in Sources */,
 				41AA53B8204D8F23007DA1FA /* NSIndexPath+Offset.m in Sources */,
 				41AA53C2204D8F23007DA1FA /* NSMutableString+Ruby.m in Sources */,
@@ -2093,6 +2198,7 @@
 				41AA544E204D8F24007DA1FA /* UIWindow+Hierarchy.m in Sources */,
 				41AA5415204D8F24007DA1FA /* UILabel+ESAdjustableLabel.m in Sources */,
 				41AA53B5204D8F23007DA1FA /* NSDictionary+URL.m in Sources */,
+				4163DDC7204EEE4F00B8AC7B /* JYAskForLeaveViewController.m in Sources */,
 				41AA53E9204D8F23007DA1FA /* UIButton+Block.m in Sources */,
 				41AA5426204D8F24007DA1FA /* UITableViewCell+TS_delaysContentTouches.m in Sources */,
 				41AA5413204D8F24007DA1FA /* UILabel+AutomaticWriting.m in Sources */,
@@ -2113,6 +2219,7 @@
 				41AA5447204D8F24007DA1FA /* UIWebView+Canvas.m in Sources */,
 				41AA53F1204D8F23007DA1FA /* UIColor+HEX.m in Sources */,
 				41AA53C9204D8F23007DA1FA /* NSString+Hash.m in Sources */,
+				4163DDDD204EF02E00B8AC7B /* BRDatePickerView.m in Sources */,
 				41AA541E204D8F24007DA1FA /* UIResponder+UIAdapt.m in Sources */,
 				41AA53DD204D8F23007DA1FA /* UIAlertView+Block.m in Sources */,
 				41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */,
@@ -2124,6 +2231,7 @@
 				41AA5454204D8F24007DA1FA /* NSData+TGCompress.m in Sources */,
 				41AA53D2204D8F23007DA1FA /* NSString+Trims.m in Sources */,
 				41AA5422204D8F24007DA1FA /* UIScrollView+Pages.m in Sources */,
+				4163DDE5204EF40700B8AC7B /* JYBottomSelectView.m in Sources */,
 				41AA53F9204D8F23007DA1FA /* UIFont+DynamicFontControl.m in Sources */,
 				41AA53EA204D8F23007DA1FA /* UIButton+CountDown.m in Sources */,
 				41AA5425204D8F24007DA1FA /* UITableViewCell+NIB.m in Sources */,

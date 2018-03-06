@@ -9,7 +9,7 @@
 #import "LBMyDataViewController.h"
 #import "LBMydataHeadTableViewCell.h"
 #import "LBMyDataTableViewCell.h"
-
+#import "BRDatePickerView.h"
 @interface LBMyDataViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic ,strong) UITableView * tableView;
@@ -87,6 +87,18 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    switch (indexPath.row) {
+        case 2:
+            {
+                [BRDatePickerView showDatePickerWithTitle:@"" dateType:UIDatePickerModeDate defaultSelValue:@"" minDateStr:@"" maxDateStr:@"" isAutoSelect:YES resultBlock:^(NSString *selectValue,NSDate * selectDate) {
+                    NSLog(@"selectDate:%@",selectDate);
+                }];
+            }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 

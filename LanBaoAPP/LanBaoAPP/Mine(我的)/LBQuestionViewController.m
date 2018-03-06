@@ -18,6 +18,8 @@
 
 @property (nonatomic ,strong) NSMutableArray * arrData;
 
+@property (nonatomic ,strong) LBQuestionModel * currModel;
+
 @end
 
 @implementation LBQuestionViewController
@@ -58,7 +60,7 @@
 
     [self.tableView registerNib:[UINib nibWithNibName:@"LBQuestionHeaderView" bundle:nil] forHeaderFooterViewReuseIdentifier:@"LBQuestionHeaderView"];
     
-    self.tableView.sectionFooterHeight = 0;
+    self.tableView.sectionFooterHeight = 5;
     self.tableView.sectionHeaderHeight = 40;
 }
 
@@ -76,6 +78,8 @@
     return 80;
 }
 
+
+
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     
     LBQuestionHeaderView * view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"LBQuestionHeaderView"];
@@ -84,7 +88,9 @@
     view.btnShow.selected = model.isSelectState;
     view.contentView.backgroundColor = [UIColor whiteColor];
     [view setShowContentBlock:^(BOOL state) {
+        self.currModel.selectState = NO;
         model.selectState = state;
+        self.currModel = model;
         [self.tableView reloadData];
     }];
     
@@ -94,7 +100,9 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 40;
 }
-
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 5;
+}
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     LBQuestionModel * model = self.arrData[indexPath.section];
     LBQuestionTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"LBQuestionTableViewCell" forIndexPath:indexPath];

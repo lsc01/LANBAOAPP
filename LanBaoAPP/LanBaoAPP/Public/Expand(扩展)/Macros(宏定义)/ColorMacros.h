@@ -28,7 +28,8 @@
 #define kWhiteColor 0xffffff//白色
 #define kplaceholderColor 0xbbbbbb//提示颜色
 #define kOrangeColor 0xff9802
-
+//93ACB9
 #define kAPPBaseColor [UIColor colorWithRed:147/255.00 green:172/255.00 blue:185/255.00 alpha:1]
+//EFEFF6
 #define kAPPBaseBackGroudColor [UIColor colorWithRed:239/255.00 green:239/255.00 blue:246/255.00 alpha:1] //背景色
 #endif /* ColorMacros_h */

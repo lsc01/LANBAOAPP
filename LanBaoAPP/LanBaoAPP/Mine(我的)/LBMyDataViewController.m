@@ -36,7 +36,7 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;//分割线
-    
+    self.tableView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:self.tableView];
 
     [self.tableView registerNib:[UINib nibWithNibName:@"LBMydataHeadTableViewCell" bundle:nil] forCellReuseIdentifier:@"LBMydataHeadTableViewCell"];

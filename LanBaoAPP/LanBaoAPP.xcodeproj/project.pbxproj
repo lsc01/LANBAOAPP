@@ -220,6 +220,15 @@
 		41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F72045A135007D650C /* LaunchScreen.storyboard */; };
 		41E8F1FC2045A135007D650C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1FB2045A135007D650C /* main.m */; };
 		57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BBC204E2C4C004D710F /* Main.storyboard */; };
+		57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */; };
+		57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */; };
+		57B36BC5204E70AE004D710F /* LBMsgCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BC4204E70AE004D710F /* LBMsgCenterHeaderView.m */; };
+		57B36BC7204E70C2004D710F /* LBMsgCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BC6204E70C2004D710F /* LBMsgCenterHeaderView.xib */; };
+		57B36BCA204E7757004D710F /* LBQuestionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BC9204E7757004D710F /* LBQuestionHeaderView.m */; };
+		57B36BCC204E7763004D710F /* LBQuestionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BCB204E7763004D710F /* LBQuestionHeaderView.xib */; };
+		57B36BD0204E7791004D710F /* LBQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BCE204E7791004D710F /* LBQuestionTableViewCell.m */; };
+		57B36BD1204E7791004D710F /* LBQuestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BCF204E7791004D710F /* LBQuestionTableViewCell.xib */; };
+		57B36BD5204E7B33004D710F /* LBQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BD4204E7B33004D710F /* LBQuestionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -646,6 +655,20 @@
 		41E8F1FA2045A135007D650C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41E8F1FB2045A135007D650C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57B36BBC204E2C4C004D710F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		57B36BBE204E68BB004D710F /* LBMsgCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMsgCenterTableViewCell.h; sourceTree = "<group>"; };
+		57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMsgCenterTableViewCell.m; sourceTree = "<group>"; };
+		57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMsgCenterTableViewCell.xib; sourceTree = "<group>"; };
+		57B36BC3204E70AE004D710F /* LBMsgCenterHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMsgCenterHeaderView.h; sourceTree = "<group>"; };
+		57B36BC4204E70AE004D710F /* LBMsgCenterHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMsgCenterHeaderView.m; sourceTree = "<group>"; };
+		57B36BC6204E70C2004D710F /* LBMsgCenterHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMsgCenterHeaderView.xib; sourceTree = "<group>"; };
+		57B36BC8204E7757004D710F /* LBQuestionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBQuestionHeaderView.h; sourceTree = "<group>"; };
+		57B36BC9204E7757004D710F /* LBQuestionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBQuestionHeaderView.m; sourceTree = "<group>"; };
+		57B36BCB204E7763004D710F /* LBQuestionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBQuestionHeaderView.xib; sourceTree = "<group>"; };
+		57B36BCD204E7791004D710F /* LBQuestionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBQuestionTableViewCell.h; sourceTree = "<group>"; };
+		57B36BCE204E7791004D710F /* LBQuestionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBQuestionTableViewCell.m; sourceTree = "<group>"; };
+		57B36BCF204E7791004D710F /* LBQuestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBQuestionTableViewCell.xib; sourceTree = "<group>"; };
+		57B36BD3204E7B33004D710F /* LBQuestionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBQuestionModel.h; sourceTree = "<group>"; };
+		57B36BD4204E7B33004D710F /* LBQuestionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBQuestionModel.m; sourceTree = "<group>"; };
 		87C60637337E8A2C4239552D /* libPods-LanBaoAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LanBaoAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F325755B6942008B888A7 /* Pods-LanBaoAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanBaoAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanBaoAPP/Pods-LanBaoAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -704,10 +727,7 @@
 			isa = PBXGroup;
 			children = (
 				41AA51F4204D8F23007DA1FA /* Categories(分类) */,
-				41AA5376204D8F23007DA1FA /* Constant(静态变量) */,
-				41AA5377204D8F23007DA1FA /* DataBase(数据库) */,
 				41AA5378204D8F23007DA1FA /* Macros(宏定义) */,
-				41AA5381204D8F23007DA1FA /* Network(网络) */,
 				41AA5389204D8F23007DA1FA /* Utils(工具类) */,
 			);
 			path = "Expand(扩展)";
@@ -1490,20 +1510,6 @@
 			path = UIWindow;
 			sourceTree = "<group>";
 		};
-		41AA5376204D8F23007DA1FA /* Constant(静态变量) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Constant(静态变量)";
-			sourceTree = "<group>";
-		};
-		41AA5377204D8F23007DA1FA /* DataBase(数据库) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "DataBase(数据库)";
-			sourceTree = "<group>";
-		};
 		41AA5378204D8F23007DA1FA /* Macros(宏定义) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1517,21 +1523,6 @@
 				41AA5380204D8F23007DA1FA /* URLMacros.h */,
 			);
 			path = "Macros(宏定义)";
-			sourceTree = "<group>";
-		};
-		41AA5381204D8F23007DA1FA /* Network(网络) */ = {
-			isa = PBXGroup;
-			children = (
-				41AA5382204D8F23007DA1FA /* (BaseNet)网络请求基类 */,
-			);
-			path = "Network(网络)";
-			sourceTree = "<group>";
-		};
-		41AA5382204D8F23007DA1FA /* (BaseNet)网络请求基类 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "(BaseNet)网络请求基类";
 			sourceTree = "<group>";
 		};
 		41AA5389204D8F23007DA1FA /* Utils(工具类) */ = {
@@ -1674,6 +1665,7 @@
 		41C8903A2048479A0000B7C3 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				57B36BD2204E7B10004D710F /* Model */,
 				41C8903E20484C3B0000B7C3 /* VIew */,
 				41C8903B204847AA0000B7C3 /* LBMyViewController.h */,
 				41C8903C204847AA0000B7C3 /* LBMyViewController.m */,
@@ -1711,6 +1703,18 @@
 				41748A9F20485958004861F7 /* LBSysSettingTableViewCell.h */,
 				41748AA020485958004861F7 /* LBSysSettingTableViewCell.m */,
 				41748AA120485958004861F7 /* LBSysSettingTableViewCell.xib */,
+				57B36BBE204E68BB004D710F /* LBMsgCenterTableViewCell.h */,
+				57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */,
+				57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */,
+				57B36BC3204E70AE004D710F /* LBMsgCenterHeaderView.h */,
+				57B36BC4204E70AE004D710F /* LBMsgCenterHeaderView.m */,
+				57B36BC6204E70C2004D710F /* LBMsgCenterHeaderView.xib */,
+				57B36BC8204E7757004D710F /* LBQuestionHeaderView.h */,
+				57B36BC9204E7757004D710F /* LBQuestionHeaderView.m */,
+				57B36BCB204E7763004D710F /* LBQuestionHeaderView.xib */,
+				57B36BCD204E7791004D710F /* LBQuestionTableViewCell.h */,
+				57B36BCE204E7791004D710F /* LBQuestionTableViewCell.m */,
+				57B36BCF204E7791004D710F /* LBQuestionTableViewCell.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -1739,12 +1743,21 @@
 				41C4689B204705ED00AA8BFF /* Register(注册) */,
 				41C46895204701E700AA8BFF /* ForgetPassWord(忘记密码) */,
 				41C4688F2046F9FF00AA8BFF /* Login(登录) */,
-				41AA51E6204D8DCA007DA1FA /* Public */,
 				41C89036204841570000B7C3 /* Home(首页) */,
 				41C8903A2048479A0000B7C3 /* Mine(我的) */,
+				41AA51E6204D8DCA007DA1FA /* Public */,
 				57DB4474204A733F00B88DA9 /* Other */,
 			);
 			path = LanBaoAPP;
+			sourceTree = "<group>";
+		};
+		57B36BD2204E7B10004D710F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57B36BD3204E7B33004D710F /* LBQuestionModel.h */,
+				57B36BD4204E7B33004D710F /* LBQuestionModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		57DB4474204A733F00B88DA9 /* Other */ = {
@@ -1844,14 +1857,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */,
+				57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */,
+				57B36BCC204E7763004D710F /* LBQuestionHeaderView.xib in Resources */,
+				57B36BD1204E7791004D710F /* LBQuestionTableViewCell.xib in Resources */,
 				57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */,
 				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
 				41AA5463204D99E9007DA1FA /* LBFirstViewController.xib in Resources */,
+				57B36BC7204E70C2004D710F /* LBMsgCenterHeaderView.xib in Resources */,
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
 				41748AA320485958004861F7 /* LBSysSettingTableViewCell.xib in Resources */,
@@ -1975,6 +1992,7 @@
 				41AA53F2204D8F23007DA1FA /* UIColor+Modify.m in Sources */,
 				41AA53B0204D8F23007DA1FA /* NSDate+Formatter.m in Sources */,
 				41AA53DC204D8F23007DA1FA /* NSURLRequest+ParamsFromDictionary.m in Sources */,
+				57B36BC5204E70AE004D710F /* LBMsgCenterHeaderView.m in Sources */,
 				41AA540E204D8F24007DA1FA /* UIImageView+BetterFace.m in Sources */,
 				41AA5403204D8F24007DA1FA /* UIImage+FX.m in Sources */,
 				41AA5406204D8F24007DA1FA /* UIImage+Orientation.m in Sources */,
@@ -1996,6 +2014,7 @@
 				41AA53EC204D8F23007DA1FA /* UIButton+LXMImagePosition.m in Sources */,
 				41AA51F1204D8DF7007DA1FA /* BSENavigationController.m in Sources */,
 				41AA5438204D8F24007DA1FA /* UIView+Screenshot.m in Sources */,
+				57B36BD5204E7B33004D710F /* LBQuestionModel.m in Sources */,
 				41AA53F5204D8F23007DA1FA /* UIControl+ActionBlocks.m in Sources */,
 				41AA542D204D8F24007DA1FA /* UITextView+Select.m in Sources */,
 				41AA540F204D8F24007DA1FA /* UIImageView+FaceAwareFill.m in Sources */,
@@ -2025,10 +2044,12 @@
 				41AA544A204D8F24007DA1FA /* UIWebView+MetaParser.m in Sources */,
 				41AA53B8204D8F23007DA1FA /* NSIndexPath+Offset.m in Sources */,
 				41AA53C2204D8F23007DA1FA /* NSMutableString+Ruby.m in Sources */,
+				57B36BD0204E7791004D710F /* LBQuestionTableViewCell.m in Sources */,
 				41AA5434204D8F24007DA1FA /* UIView+Genie.m in Sources */,
 				41AA5402204D8F24007DA1FA /* UIImage+FileName.m in Sources */,
 				41AA5414204D8F24007DA1FA /* UILabel+AutoSize.m in Sources */,
 				41AA5437204D8F24007DA1FA /* UIView+Recursion.m in Sources */,
+				57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */,
 				41AA5433204D8F24007DA1FA /* UIView+Frame.m in Sources */,
 				41AA53D8204D8F23007DA1FA /* NSURL+Param.m in Sources */,
 				41AA53DE204D8F23007DA1FA /* UIApplication+ApplicationSize.m in Sources */,
@@ -2107,6 +2128,7 @@
 				41AA53EA204D8F23007DA1FA /* UIButton+CountDown.m in Sources */,
 				41AA5425204D8F24007DA1FA /* UITableViewCell+NIB.m in Sources */,
 				41AA53AB204D8F23007DA1FA /* NSData+Encrypt.m in Sources */,
+				57B36BCA204E7757004D710F /* LBQuestionHeaderView.m in Sources */,
 				41AA541F204D8F24007DA1FA /* UIScreen+Frame.m in Sources */,
 				41AA541D204D8F24007DA1FA /* UIResponder+FirstResponder.m in Sources */,
 				41AA5457204D8F24007DA1FA /* NSString+PSPinyinFirst.m in Sources */,
@@ -2240,7 +2262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5W52S85U9Q;
+				DEVELOPMENT_TEAM = 3ZX87U9SFE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LanBaoAPP/PrefixHeader.pch";
 				INFOPLIST_FILE = LanBaoAPP/Info.plist;
@@ -2258,7 +2280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5W52S85U9Q;
+				DEVELOPMENT_TEAM = 3ZX87U9SFE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LanBaoAPP/PrefixHeader.pch";
 				INFOPLIST_FILE = LanBaoAPP/Info.plist;

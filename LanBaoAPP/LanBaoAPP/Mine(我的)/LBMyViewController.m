@@ -14,7 +14,6 @@
 #import "LBQuestionViewController.h"
 #import "LBMessageCenterVC.h"
 #import "LBSysSettingVC.h"
-#import "JYAskForLeaveViewController.h"
 
 @interface LBMyViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -100,7 +99,7 @@
             LBQuestionViewController * VC = [[LBQuestionViewController alloc] init];
             [self.navigationController pushViewController:VC animated:YES];
         }else if (indexPath.row ==1){
-            JYAskForLeaveViewController * VC = [[JYAskForLeaveViewController alloc] init];
+            LBFeedbackViewController * VC = [[LBFeedbackViewController alloc] init];
             [self.navigationController pushViewController:VC animated:YES];
         }else if (indexPath.row == 2){
             LBMessageCenterVC * VC = [[LBMessageCenterVC alloc] init];

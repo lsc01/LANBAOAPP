@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D5F6EA688E969528B1ABD7A /* libPods-LanBaoAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C60637337E8A2C4239552D /* libPods-LanBaoAPP.a */; };
-		4163DDC4204EEDD100B8AC7B /* JYAskForLeaveDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDC3204EEDD000B8AC7B /* JYAskForLeaveDetailCell.m */; };
-		4163DDC7204EEE4F00B8AC7B /* JYAskForLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDC5204EEE4E00B8AC7B /* JYAskForLeaveViewController.m */; };
 		4163DDD9204EF02E00B8AC7B /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */; };
 		4163DDDA204EF02E00B8AC7B /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCD204EF02D00B8AC7B /* BRAddressPickerView.m */; };
 		4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4163DDCE204EF02D00B8AC7B /* BRCity.plist */; };
@@ -18,6 +16,7 @@
 		4163DDDE204EF02E00B8AC7B /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDD8204EF02D00B8AC7B /* BRStringPickerView.m */; };
 		4163DDE4204EF40700B8AC7B /* JYBottomSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE1204EF40700B8AC7B /* JYBottomSelectCell.m */; };
 		4163DDE5204EF40700B8AC7B /* JYBottomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */; };
+		4163DDE820503E2A00B8AC7B /* LBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE720503E2A00B8AC7B /* LBTableViewCell.m */; };
 		41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A94204857E5004861F7 /* LBSysSettingVC.m */; };
 		41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A972048581A004861F7 /* LBMessageCenterVC.m */; };
 		41748A9B20485837004861F7 /* LBQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A9A20485837004861F7 /* LBQuestionViewController.m */; };
@@ -243,10 +242,6 @@
 
 /* Begin PBXFileReference section */
 		403FEB2473D380F7CDBB8962 /* Pods-LanBaoAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanBaoAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanBaoAPP/Pods-LanBaoAPP.release.xcconfig"; sourceTree = "<group>"; };
-		4163DDC2204EEDD000B8AC7B /* JYAskForLeaveDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAskForLeaveDetailCell.h; sourceTree = "<group>"; };
-		4163DDC3204EEDD000B8AC7B /* JYAskForLeaveDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAskForLeaveDetailCell.m; sourceTree = "<group>"; };
-		4163DDC5204EEE4E00B8AC7B /* JYAskForLeaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAskForLeaveViewController.m; sourceTree = "<group>"; };
-		4163DDC6204EEE4F00B8AC7B /* JYAskForLeaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAskForLeaveViewController.h; sourceTree = "<group>"; };
 		4163DDCA204EF02D00B8AC7B /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		4163DDCC204EF02D00B8AC7B /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -263,6 +258,8 @@
 		4163DDE1204EF40700B8AC7B /* JYBottomSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBottomSelectCell.m; sourceTree = "<group>"; };
 		4163DDE2204EF40700B8AC7B /* JYBottomSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBottomSelectView.h; sourceTree = "<group>"; };
 		4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBottomSelectView.m; sourceTree = "<group>"; };
+		4163DDE620503E2A00B8AC7B /* LBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBTableViewCell.h; sourceTree = "<group>"; };
+		4163DDE720503E2A00B8AC7B /* LBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTableViewCell.m; sourceTree = "<group>"; };
 		41748A93204857E5004861F7 /* LBSysSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSysSettingVC.h; sourceTree = "<group>"; };
 		41748A94204857E5004861F7 /* LBSysSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSysSettingVC.m; sourceTree = "<group>"; };
 		41748A962048581A004861F7 /* LBMessageCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMessageCenterVC.h; sourceTree = "<group>"; };
@@ -1775,8 +1772,6 @@
 				41748A9D2048584F004861F7 /* LBFeedbackViewController.m */,
 				41748AA420485C40004861F7 /* LBUserHelpViewController.h */,
 				41748AA520485C40004861F7 /* LBUserHelpViewController.m */,
-				4163DDC6204EEE4F00B8AC7B /* JYAskForLeaveViewController.h */,
-				4163DDC5204EEE4E00B8AC7B /* JYAskForLeaveViewController.m */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -1784,8 +1779,6 @@
 		41C8903E20484C3B0000B7C3 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				4163DDC2204EEDD000B8AC7B /* JYAskForLeaveDetailCell.h */,
-				4163DDC3204EEDD000B8AC7B /* JYAskForLeaveDetailCell.m */,
 				41C8903F20484C5C0000B7C3 /* LBMineTableViewCell.h */,
 				41C8904020484C5C0000B7C3 /* LBMineTableViewCell.m */,
 				41C8904120484C5C0000B7C3 /* LBMineTableViewCell.xib */,
@@ -1813,6 +1806,8 @@
 				57B36BCD204E7791004D710F /* LBQuestionTableViewCell.h */,
 				57B36BCE204E7791004D710F /* LBQuestionTableViewCell.m */,
 				57B36BCF204E7791004D710F /* LBQuestionTableViewCell.xib */,
+				4163DDE620503E2A00B8AC7B /* LBTableViewCell.h */,
+				4163DDE720503E2A00B8AC7B /* LBTableViewCell.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -2111,7 +2106,6 @@
 				41AA5459204D8F24007DA1FA /* NSString+TGTimeInterval.m in Sources */,
 				41AA53BF204D8F23007DA1FA /* NSObject+KVOBlocks.m in Sources */,
 				41AA5408204D8F24007DA1FA /* UIImage+RemoteSize.m in Sources */,
-				4163DDC4204EEDD100B8AC7B /* JYAskForLeaveDetailCell.m in Sources */,
 				41AA53C8204D8F23007DA1FA /* NSString+Extension.m in Sources */,
 				41AA5462204D99E9007DA1FA /* LBFirstViewController.m in Sources */,
 				41AA53EC204D8F23007DA1FA /* UIButton+LXMImagePosition.m in Sources */,
@@ -2198,7 +2192,6 @@
 				41AA544E204D8F24007DA1FA /* UIWindow+Hierarchy.m in Sources */,
 				41AA5415204D8F24007DA1FA /* UILabel+ESAdjustableLabel.m in Sources */,
 				41AA53B5204D8F23007DA1FA /* NSDictionary+URL.m in Sources */,
-				4163DDC7204EEE4F00B8AC7B /* JYAskForLeaveViewController.m in Sources */,
 				41AA53E9204D8F23007DA1FA /* UIButton+Block.m in Sources */,
 				41AA5426204D8F24007DA1FA /* UITableViewCell+TS_delaysContentTouches.m in Sources */,
 				41AA5413204D8F24007DA1FA /* UILabel+AutomaticWriting.m in Sources */,
@@ -2213,6 +2206,7 @@
 				41C890392048418C0000B7C3 /* LBHomeViewController.m in Sources */,
 				41AA53AC204D8F23007DA1FA /* NSData+Gzip.m in Sources */,
 				41AA541A204D8F24007DA1FA /* UINavigationItem+Lock.m in Sources */,
+				4163DDE820503E2A00B8AC7B /* LBTableViewCell.m in Sources */,
 				41AA5419204D8F24007DA1FA /* UINavigationItem+Loading.m in Sources */,
 				41AA53F0204D8F23007DA1FA /* UIColor+Gradient.m in Sources */,
 				41AA53F3204D8F23007DA1FA /* UIColor+Random.m in Sources */,

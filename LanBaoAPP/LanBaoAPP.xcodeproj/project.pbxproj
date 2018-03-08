@@ -17,6 +17,10 @@
 		4163DDE4204EF40700B8AC7B /* JYBottomSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE1204EF40700B8AC7B /* JYBottomSelectCell.m */; };
 		4163DDE5204EF40700B8AC7B /* JYBottomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */; };
 		4163DDE820503E2A00B8AC7B /* LBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDE720503E2A00B8AC7B /* LBTableViewCell.m */; };
+		4163DDEC2051985000B8AC7B /* LBRegistTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDEA2051985000B8AC7B /* LBRegistTwoViewController.m */; };
+		4163DDED2051985000B8AC7B /* LBRegistTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4163DDEB2051985000B8AC7B /* LBRegistTwoViewController.xib */; };
+		4163DDF1205198CC00B8AC7B /* LBForgetTwoPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDEF205198CC00B8AC7B /* LBForgetTwoPassWordVC.m */; };
+		4163DDF2205198CC00B8AC7B /* LBForgetTwoPassWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4163DDF0205198CC00B8AC7B /* LBForgetTwoPassWordVC.xib */; };
 		41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A94204857E5004861F7 /* LBSysSettingVC.m */; };
 		41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A972048581A004861F7 /* LBMessageCenterVC.m */; };
 		41748A9B20485837004861F7 /* LBQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41748A9A20485837004861F7 /* LBQuestionViewController.m */; };
@@ -204,8 +208,6 @@
 		41AA545B204D8F24007DA1FA /* WLClearCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AA53A3204D8F23007DA1FA /* WLClearCacheTool.m */; };
 		41AA545C204D8F24007DA1FA /* WLCountDownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AA53A6204D8F23007DA1FA /* WLCountDownTimer.m */; };
 		41AA545D204D8F24007DA1FA /* WLDeviceStateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AA53A9204D8F23007DA1FA /* WLDeviceStateInfo.m */; };
-		41AA5462204D99E9007DA1FA /* LBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AA5460204D99E9007DA1FA /* LBFirstViewController.m */; };
-		41AA5463204D99E9007DA1FA /* LBFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AA5461204D99E9007DA1FA /* LBFirstViewController.xib */; };
 		41C468932046FA3700AA8BFF /* LBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C468912046FA3700AA8BFF /* LBLoginViewController.m */; };
 		41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C468922046FA3700AA8BFF /* LBLoginViewController.xib */; };
 		41C468992047031700AA8BFF /* LBForgetPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C468972047031700AA8BFF /* LBForgetPassWordVC.m */; };
@@ -268,6 +270,12 @@
 		4163DDE3204EF40700B8AC7B /* JYBottomSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBottomSelectView.m; sourceTree = "<group>"; };
 		4163DDE620503E2A00B8AC7B /* LBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBTableViewCell.h; sourceTree = "<group>"; };
 		4163DDE720503E2A00B8AC7B /* LBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTableViewCell.m; sourceTree = "<group>"; };
+		4163DDE92051985000B8AC7B /* LBRegistTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBRegistTwoViewController.h; sourceTree = "<group>"; };
+		4163DDEA2051985000B8AC7B /* LBRegistTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBRegistTwoViewController.m; sourceTree = "<group>"; };
+		4163DDEB2051985000B8AC7B /* LBRegistTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBRegistTwoViewController.xib; sourceTree = "<group>"; };
+		4163DDEE205198CC00B8AC7B /* LBForgetTwoPassWordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBForgetTwoPassWordVC.h; sourceTree = "<group>"; };
+		4163DDEF205198CC00B8AC7B /* LBForgetTwoPassWordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBForgetTwoPassWordVC.m; sourceTree = "<group>"; };
+		4163DDF0205198CC00B8AC7B /* LBForgetTwoPassWordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBForgetTwoPassWordVC.xib; sourceTree = "<group>"; };
 		41748A93204857E5004861F7 /* LBSysSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSysSettingVC.h; sourceTree = "<group>"; };
 		41748A94204857E5004861F7 /* LBSysSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSysSettingVC.m; sourceTree = "<group>"; };
 		41748A962048581A004861F7 /* LBMessageCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMessageCenterVC.h; sourceTree = "<group>"; };
@@ -650,9 +658,6 @@
 		41AA53A8204D8F23007DA1FA /* WLDeviceStateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDeviceStateInfo.h; sourceTree = "<group>"; };
 		41AA53A9204D8F23007DA1FA /* WLDeviceStateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLDeviceStateInfo.m; sourceTree = "<group>"; };
 		41AA545E204D9070007DA1FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		41AA545F204D99E9007DA1FA /* LBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBFirstViewController.h; sourceTree = "<group>"; };
-		41AA5460204D99E9007DA1FA /* LBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBFirstViewController.m; sourceTree = "<group>"; };
-		41AA5461204D99E9007DA1FA /* LBFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBFirstViewController.xib; sourceTree = "<group>"; };
 		41C468902046FA3700AA8BFF /* LBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBLoginViewController.h; sourceTree = "<group>"; };
 		41C468912046FA3700AA8BFF /* LBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBLoginViewController.m; sourceTree = "<group>"; };
 		41C468922046FA3700AA8BFF /* LBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBLoginViewController.xib; sourceTree = "<group>"; };
@@ -1737,9 +1742,6 @@
 				41C468902046FA3700AA8BFF /* LBLoginViewController.h */,
 				41C468912046FA3700AA8BFF /* LBLoginViewController.m */,
 				41C468922046FA3700AA8BFF /* LBLoginViewController.xib */,
-				41AA545F204D99E9007DA1FA /* LBFirstViewController.h */,
-				41AA5460204D99E9007DA1FA /* LBFirstViewController.m */,
-				41AA5461204D99E9007DA1FA /* LBFirstViewController.xib */,
 			);
 			path = "Login(登录)";
 			sourceTree = "<group>";
@@ -1750,6 +1752,9 @@
 				41C468962047031700AA8BFF /* LBForgetPassWordVC.h */,
 				41C468972047031700AA8BFF /* LBForgetPassWordVC.m */,
 				41C468982047031700AA8BFF /* LBForgetPassWordVC.xib */,
+				4163DDEE205198CC00B8AC7B /* LBForgetTwoPassWordVC.h */,
+				4163DDEF205198CC00B8AC7B /* LBForgetTwoPassWordVC.m */,
+				4163DDF0205198CC00B8AC7B /* LBForgetTwoPassWordVC.xib */,
 			);
 			path = "ForgetPassWord(忘记密码)";
 			sourceTree = "<group>";
@@ -1760,6 +1765,9 @@
 				41C4689C2047062200AA8BFF /* LBRegistPasswordVC.h */,
 				41C4689D2047062200AA8BFF /* LBRegistPasswordVC.m */,
 				41C4689E2047062200AA8BFF /* LBRegistPasswordVC.xib */,
+				4163DDE92051985000B8AC7B /* LBRegistTwoViewController.h */,
+				4163DDEA2051985000B8AC7B /* LBRegistTwoViewController.m */,
+				4163DDEB2051985000B8AC7B /* LBRegistTwoViewController.xib */,
 			);
 			path = "Register(注册)";
 			sourceTree = "<group>";
@@ -2016,6 +2024,7 @@
 				41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */,
 				57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
+				4163DDED2051985000B8AC7B /* LBRegistTwoViewController.xib in Resources */,
 				41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */,
 				57B36BCC204E7763004D710F /* LBQuestionHeaderView.xib in Resources */,
 				5724147720510F970059E828 /* LBHomeDownTableViewCell.xib in Resources */,
@@ -2023,12 +2032,12 @@
 				57B36BD1204E7791004D710F /* LBQuestionTableViewCell.xib in Resources */,
 				57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */,
 				4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */,
+				4163DDF2205198CC00B8AC7B /* LBForgetTwoPassWordVC.xib in Resources */,
 				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
 				5724147220510F810059E828 /* LBHomeUpTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
-				41AA5463204D99E9007DA1FA /* LBFirstViewController.xib in Resources */,
 				57B36BC7204E70C2004D710F /* LBMsgCenterHeaderView.xib in Resources */,
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
@@ -2111,6 +2120,7 @@
 				41AA5409204D8F24007DA1FA /* UIImage+Resize.m in Sources */,
 				41AA53DA204D8F23007DA1FA /* NSURLConnection+SelfSigned.m in Sources */,
 				41AA53AD204D8F23007DA1FA /* NSData+Hash.m in Sources */,
+				4163DDEC2051985000B8AC7B /* LBRegistTwoViewController.m in Sources */,
 				41AA543A204D8F24007DA1FA /* UIView+Toast.m in Sources */,
 				41AA544D204D8F24007DA1FA /* WebView+Debug.m in Sources */,
 				41AA51F2204D8DF7007DA1FA /* UIViewController+WLBackButton.m in Sources */,
@@ -2175,7 +2185,6 @@
 				41AA53BF204D8F23007DA1FA /* NSObject+KVOBlocks.m in Sources */,
 				41AA5408204D8F24007DA1FA /* UIImage+RemoteSize.m in Sources */,
 				41AA53C8204D8F23007DA1FA /* NSString+Extension.m in Sources */,
-				41AA5462204D99E9007DA1FA /* LBFirstViewController.m in Sources */,
 				41AA53EC204D8F23007DA1FA /* UIButton+LXMImagePosition.m in Sources */,
 				41AA51F1204D8DF7007DA1FA /* BSENavigationController.m in Sources */,
 				41AA5438204D8F24007DA1FA /* UIView+Screenshot.m in Sources */,
@@ -2309,6 +2318,7 @@
 				41AA5401204D8F24007DA1FA /* UIImage+Color.m in Sources */,
 				41AA53CE204D8F23007DA1FA /* NSString+RemoveEmoji.m in Sources */,
 				41E8F1EE2045A135007D650C /* AppDelegate.m in Sources */,
+				4163DDF1205198CC00B8AC7B /* LBForgetTwoPassWordVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

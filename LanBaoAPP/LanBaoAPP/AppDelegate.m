@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BSENavigationController.h"
-#import "LBFirstViewController.h"
+#import "LBLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     // Override point for customization after application launch.
     [NSURL URLWithString:@"http://www.baidu.com"];
 
-    LBFirstViewController * vc = [[LBFirstViewController alloc] init];
+    LBLoginViewController * vc = [[LBLoginViewController alloc] init];
     BSENavigationController *Nav = [[BSENavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = Nav;
     [self.window makeKeyAndVisible];

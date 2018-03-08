@@ -1,47 +1,33 @@
 //
-//  LBRegistPasswordVC.m
+//  LBRegistTwoViewController.m
 //  LanBaoAPP
 //
-//  Created by lsc on 2018/2/28.
+//  Created by lsc on 2018/3/9.
 //  Copyright © 2018年 lsc. All rights reserved.
 //
 
-#import "LBRegistPasswordVC.h"
 #import "LBRegistTwoViewController.h"
 
-@interface LBRegistPasswordVC ()
-@property (weak, nonatomic) IBOutlet UITextField *textFieldUserName;
-
-@property (weak, nonatomic) IBOutlet UITextField *textFeildSecCode;
+@interface LBRegistTwoViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textFeildPassword;
+@property (weak, nonatomic) IBOutlet UITextField *textFeildPassword2;
 
 @property (weak, nonatomic) IBOutlet UIButton *btnNext;
-@property (weak, nonatomic) IBOutlet UIButton *btnSecurityCode;
-
 @end
 
-@implementation LBRegistPasswordVC
+@implementation LBRegistTwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor = kAPPBaseColor;
-    [self setUI];
-}
-
--(void)setUI{
-    [self.btnSecurityCode setBackgroundColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    self.btnSecurityCode.clipsToBounds = YES;
-    self.btnSecurityCode.layer.cornerRadius = 15;
     
+     self.view.backgroundColor = kAPPBaseColor;
     self.btnNext.clipsToBounds = YES;
     self.btnNext.layer.cornerRadius = 20;
     [self.btnNext setBackgroundColor:[UIColor whiteColor] forState:UIControlStateNormal];
 }
-- (IBAction)getSecurityCodeClick:(UIButton *)sender {
-}
+
 - (IBAction)NextClick:(UIButton *)sender {
-    LBRegistTwoViewController * vc = [[LBRegistTwoViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

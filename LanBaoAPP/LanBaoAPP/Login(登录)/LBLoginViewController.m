@@ -11,6 +11,7 @@
 #import "LBHomeViewController.h"
 #import "AppDelegate.h"
 #import "BSENavigationController.h"
+#import "LBRegistPasswordVC.h"
 
 @interface LBLoginViewController ()
 
@@ -21,6 +22,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *btnForget;
 
+@property (weak, nonatomic) IBOutlet UIButton *btnRegist;
 @end
 
 @implementation LBLoginViewController
@@ -28,16 +30,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"登录";
+    self.view.backgroundColor = kAPPBaseColor;
     [self setUI];
 }
 
 -(void)setUI{
     self.btnLogin.clipsToBounds = YES;
-    self.btnLogin.layer.cornerRadius = 10;
-    [self.btnLogin setBackgroundColor:kAPPBaseColor forState:UIControlStateNormal];
+    self.btnLogin.layer.cornerRadius = 20;
     
-    [self.btnForget setTitleColor:kAPPBaseColor forState:UIControlStateNormal];
+    self.btnRegist.clipsToBounds = YES;
+    self.btnRegist.layer.cornerRadius = 20;
+    self.btnRegist.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.btnRegist.layer.borderWidth = 1;
+    
 }
 
 - (IBAction)loginClick:(UIButton *)sender {
@@ -49,6 +54,10 @@
     delegate.window.rootViewController = nav;
     [delegate.window makeKeyAndVisible];
     
+}
+- (IBAction)registClick:(UIButton *)sender {
+    LBRegistPasswordVC * VC = [[LBRegistPasswordVC alloc] init];
+    [self.navigationController pushViewController:VC animated:YES];
 }
 - (IBAction)forgetPwdClick:(UIButton *)sender {
     LBForgetPassWordVC * forgetVC = [[LBForgetPassWordVC alloc] init];

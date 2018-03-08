@@ -20,6 +20,21 @@ typedef NS_ENUM(NSUInteger, BDRequestErrorType) {
 
 @implementation CSBaseFuncVC
 
+- (void)viewWillAppear:(BOOL)animated{
+    
+    // Called when the view is about to made visible. Default does nothing
+    
+    [super viewWillAppear:animated];
+    
+    
+    //去除导航栏下方的横线
+    
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+    
+    
+    
+}
+
 -(UIImageView *)gifImageView{
     if(_gifImageView == nil){
         NSArray *magesArray = [NSArray arrayWithObjects:
@@ -202,6 +217,8 @@ typedef NS_ENUM(NSUInteger, BDRequestErrorType) {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
  #pragma mark - Navigation

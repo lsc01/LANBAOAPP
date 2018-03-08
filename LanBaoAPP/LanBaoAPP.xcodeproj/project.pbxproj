@@ -228,6 +228,14 @@
 		41E8F1F62045A135007D650C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F52045A135007D650C /* Assets.xcassets */; };
 		41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F72045A135007D650C /* LaunchScreen.storyboard */; };
 		41E8F1FC2045A135007D650C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1FB2045A135007D650C /* main.m */; };
+		5724147120510F810059E828 /* LBHomeUpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724146F20510F810059E828 /* LBHomeUpTableViewCell.m */; };
+		5724147220510F810059E828 /* LBHomeUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724147020510F810059E828 /* LBHomeUpTableViewCell.xib */; };
+		5724147620510F970059E828 /* LBHomeDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724147420510F970059E828 /* LBHomeDownTableViewCell.m */; };
+		5724147720510F970059E828 /* LBHomeDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724147520510F970059E828 /* LBHomeDownTableViewCell.xib */; };
+		5724147A20510FC90059E828 /* LBHomeCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724147920510FC90059E828 /* LBHomeCenterHeaderView.m */; };
+		5724147C20510FD80059E828 /* LBHomeCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724147B20510FD80059E828 /* LBHomeCenterHeaderView.xib */; };
+		5724147F20511BCC0059E828 /* LBHomeBottomPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724147E20511BCC0059E828 /* LBHomeBottomPlayView.m */; };
+		5724148120511BDE0059E828 /* LBHomeBottomPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724148020511BDE0059E828 /* LBHomeBottomPlayView.xib */; };
 		57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BBC204E2C4C004D710F /* Main.storyboard */; };
 		57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */; };
 		57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */; };
@@ -681,6 +689,18 @@
 		41E8F1F82045A135007D650C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E8F1FA2045A135007D650C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41E8F1FB2045A135007D650C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5724146E20510F810059E828 /* LBHomeUpTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeUpTableViewCell.h; sourceTree = "<group>"; };
+		5724146F20510F810059E828 /* LBHomeUpTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeUpTableViewCell.m; sourceTree = "<group>"; };
+		5724147020510F810059E828 /* LBHomeUpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBHomeUpTableViewCell.xib; sourceTree = "<group>"; };
+		5724147320510F970059E828 /* LBHomeDownTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeDownTableViewCell.h; sourceTree = "<group>"; };
+		5724147420510F970059E828 /* LBHomeDownTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeDownTableViewCell.m; sourceTree = "<group>"; };
+		5724147520510F970059E828 /* LBHomeDownTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBHomeDownTableViewCell.xib; sourceTree = "<group>"; };
+		5724147820510FC90059E828 /* LBHomeCenterHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeCenterHeaderView.h; sourceTree = "<group>"; };
+		5724147920510FC90059E828 /* LBHomeCenterHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeCenterHeaderView.m; sourceTree = "<group>"; };
+		5724147B20510FD80059E828 /* LBHomeCenterHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBHomeCenterHeaderView.xib; sourceTree = "<group>"; };
+		5724147D20511BCC0059E828 /* LBHomeBottomPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeBottomPlayView.h; sourceTree = "<group>"; };
+		5724147E20511BCC0059E828 /* LBHomeBottomPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeBottomPlayView.m; sourceTree = "<group>"; };
+		5724148020511BDE0059E828 /* LBHomeBottomPlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBHomeBottomPlayView.xib; sourceTree = "<group>"; };
 		57B36BBC204E2C4C004D710F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		57B36BBE204E68BB004D710F /* LBMsgCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMsgCenterTableViewCell.h; sourceTree = "<group>"; };
 		57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMsgCenterTableViewCell.m; sourceTree = "<group>"; };
@@ -1747,8 +1767,9 @@
 		41C89036204841570000B7C3 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				41C890372048418C0000B7C3 /* LBHomeViewController.h */,
-				41C890382048418C0000B7C3 /* LBHomeViewController.m */,
+				5724146920510B530059E828 /* Controler */,
+				5724146C20510B8D0059E828 /* Model */,
+				5724146B20510B7F0059E828 /* View */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -1756,22 +1777,9 @@
 		41C8903A2048479A0000B7C3 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				5724146D20510B9C0059E828 /* Controller */,
 				57B36BD2204E7B10004D710F /* Model */,
 				41C8903E20484C3B0000B7C3 /* VIew */,
-				41C8903B204847AA0000B7C3 /* LBMyViewController.h */,
-				41C8903C204847AA0000B7C3 /* LBMyViewController.m */,
-				41C890492048521A0000B7C3 /* LBMyDataViewController.h */,
-				41C8904A2048521B0000B7C3 /* LBMyDataViewController.m */,
-				41748A93204857E5004861F7 /* LBSysSettingVC.h */,
-				41748A94204857E5004861F7 /* LBSysSettingVC.m */,
-				41748A962048581A004861F7 /* LBMessageCenterVC.h */,
-				41748A972048581A004861F7 /* LBMessageCenterVC.m */,
-				41748A9920485837004861F7 /* LBQuestionViewController.h */,
-				41748A9A20485837004861F7 /* LBQuestionViewController.m */,
-				41748A9C2048584F004861F7 /* LBFeedbackViewController.h */,
-				41748A9D2048584F004861F7 /* LBFeedbackViewController.m */,
-				41748AA420485C40004861F7 /* LBUserHelpViewController.h */,
-				41748AA520485C40004861F7 /* LBUserHelpViewController.m */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -1842,6 +1850,62 @@
 				57DB4474204A733F00B88DA9 /* Other */,
 			);
 			path = LanBaoAPP;
+			sourceTree = "<group>";
+		};
+		5724146920510B530059E828 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				41C890372048418C0000B7C3 /* LBHomeViewController.h */,
+				41C890382048418C0000B7C3 /* LBHomeViewController.m */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		5724146B20510B7F0059E828 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5724146E20510F810059E828 /* LBHomeUpTableViewCell.h */,
+				5724146F20510F810059E828 /* LBHomeUpTableViewCell.m */,
+				5724147020510F810059E828 /* LBHomeUpTableViewCell.xib */,
+				5724147320510F970059E828 /* LBHomeDownTableViewCell.h */,
+				5724147420510F970059E828 /* LBHomeDownTableViewCell.m */,
+				5724147520510F970059E828 /* LBHomeDownTableViewCell.xib */,
+				5724147820510FC90059E828 /* LBHomeCenterHeaderView.h */,
+				5724147920510FC90059E828 /* LBHomeCenterHeaderView.m */,
+				5724147B20510FD80059E828 /* LBHomeCenterHeaderView.xib */,
+				5724147D20511BCC0059E828 /* LBHomeBottomPlayView.h */,
+				5724147E20511BCC0059E828 /* LBHomeBottomPlayView.m */,
+				5724148020511BDE0059E828 /* LBHomeBottomPlayView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5724146C20510B8D0059E828 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5724146D20510B9C0059E828 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C8903B204847AA0000B7C3 /* LBMyViewController.h */,
+				41C8903C204847AA0000B7C3 /* LBMyViewController.m */,
+				41C890492048521A0000B7C3 /* LBMyDataViewController.h */,
+				41C8904A2048521B0000B7C3 /* LBMyDataViewController.m */,
+				41748A93204857E5004861F7 /* LBSysSettingVC.h */,
+				41748A94204857E5004861F7 /* LBSysSettingVC.m */,
+				41748A962048581A004861F7 /* LBMessageCenterVC.h */,
+				41748A972048581A004861F7 /* LBMessageCenterVC.m */,
+				41748A9920485837004861F7 /* LBQuestionViewController.h */,
+				41748A9A20485837004861F7 /* LBQuestionViewController.m */,
+				41748A9C2048584F004861F7 /* LBFeedbackViewController.h */,
+				41748A9D2048584F004861F7 /* LBFeedbackViewController.m */,
+				41748AA420485C40004861F7 /* LBUserHelpViewController.h */,
+				41748AA520485C40004861F7 /* LBUserHelpViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		57B36BD2204E7B10004D710F /* Model */ = {
@@ -1954,10 +2018,13 @@
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */,
 				57B36BCC204E7763004D710F /* LBQuestionHeaderView.xib in Resources */,
+				5724147720510F970059E828 /* LBHomeDownTableViewCell.xib in Resources */,
+				5724148120511BDE0059E828 /* LBHomeBottomPlayView.xib in Resources */,
 				57B36BD1204E7791004D710F /* LBQuestionTableViewCell.xib in Resources */,
 				57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */,
 				4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */,
 				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
+				5724147220510F810059E828 /* LBHomeUpTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
@@ -1966,6 +2033,7 @@
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
 				41748AA320485958004861F7 /* LBSysSettingTableViewCell.xib in Resources */,
+				5724147C20510FD80059E828 /* LBHomeCenterHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2125,6 +2193,7 @@
 				41AA5443204D8F24007DA1FA /* UIViewController+TopBarMessage.m in Sources */,
 				41AA53CF204D8F23007DA1FA /* NSString+Ruby.m in Sources */,
 				41AA53E1204D8F23007DA1FA /* UIApplication+Permissions.m in Sources */,
+				5724147120510F810059E828 /* LBHomeUpTableViewCell.m in Sources */,
 				41AA53CA204D8F23007DA1FA /* NSString+Matcher.m in Sources */,
 				41AA53FC204D8F23007DA1FA /* UIImage+Alpha.m in Sources */,
 				41C8904F204853340000B7C3 /* LBMyDataTableViewCell.m in Sources */,
@@ -2176,6 +2245,7 @@
 				41AA53C3204D8F23007DA1FA /* NSString+Base64.m in Sources */,
 				41AA53D5204D8F23007DA1FA /* NSString+XML.m in Sources */,
 				41AA5418204D8F24007DA1FA /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				5724147F20511BCC0059E828 /* LBHomeBottomPlayView.m in Sources */,
 				41AA5405204D8F24007DA1FA /* UIImage+Merge.m in Sources */,
 				41AA53CC204D8F23007DA1FA /* NSString+Pinyin.m in Sources */,
 				41AA53D7204D8F23007DA1FA /* NSTimer+Blocks.m in Sources */,
@@ -2198,6 +2268,7 @@
 				41AA5412204D8F24007DA1FA /* UIImageView+Reflect.m in Sources */,
 				41AA544C204D8F24007DA1FA /* UIWebVIew+SwipeGesture.m in Sources */,
 				41AA53AA204D8F23007DA1FA /* NSData+Base64.m in Sources */,
+				5724147A20510FC90059E828 /* LBHomeCenterHeaderView.m in Sources */,
 				41AA5452204D8F24007DA1FA /* CAShapeLayer+Mask.m in Sources */,
 				41AA53FF204D8F24007DA1FA /* UIImage+Blur.m in Sources */,
 				41AA53FD204D8F23007DA1FA /* UIImage+animatedGIF.m in Sources */,
@@ -2230,6 +2301,7 @@
 				41AA53EA204D8F23007DA1FA /* UIButton+CountDown.m in Sources */,
 				41AA5425204D8F24007DA1FA /* UITableViewCell+NIB.m in Sources */,
 				41AA53AB204D8F23007DA1FA /* NSData+Encrypt.m in Sources */,
+				5724147620510F970059E828 /* LBHomeDownTableViewCell.m in Sources */,
 				57B36BCA204E7757004D710F /* LBQuestionHeaderView.m in Sources */,
 				41AA541F204D8F24007DA1FA /* UIScreen+Frame.m in Sources */,
 				41AA541D204D8F24007DA1FA /* UIResponder+FirstResponder.m in Sources */,

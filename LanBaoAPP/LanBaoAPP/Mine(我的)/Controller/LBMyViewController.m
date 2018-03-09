@@ -14,12 +14,13 @@
 #import "LBQuestionViewController.h"
 #import "LBMessageCenterVC.h"
 #import "LBSysSettingVC.h"
+#import "LBMineHeaderView.h"
+#import "LBMyHeaderViewController.h"
 
 @interface LBMyViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic ,strong) UITableView * tableView;
 
-@property (nonatomic ,strong) NSArray * arrImages;
 @property (nonatomic ,strong) NSArray * arrTitles;
 
 
@@ -31,9 +32,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"我的";
-    
-    self.arrImages = @[@"",@"",@"",@""];
-    self.arrTitles = @[@"常见问题",@"意见反馈",@"消息中心",@"系统设置"];
+    self.view.backgroundColor = kAPPBaseColor;
+    self.arrTitles = @[@"主箱与盒子",@"常见问题",@"意见反馈",@"消息中心",@"系统设置"];
     [self setUI];
 }
 
@@ -42,73 +42,67 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;//分割线
-    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.backgroundColor = kAPPBaseColor;
     [self.view addSubview:self.tableView];
     
-    [self.tableView registerNib:[UINib nibWithNibName:@"LBMineHeadTableViewCell" bundle:nil] forCellReuseIdentifier:@"cell1"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"LBMineTableViewCell" bundle:nil] forCellReuseIdentifier:@"cell2"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"LBMineTableViewCell" bundle:nil] forCellReuseIdentifier:@"LBMineTableViewCell"];
     
     self.tableView.sectionFooterHeight = 0;
-    self.tableView.sectionHeaderHeight = 10;
+    self.tableView.sectionHeaderHeight = 0;
+    
+    LBMineHeaderView * headView =[[NSBundle mainBundle]loadNibNamed:@"LBMineHeaderView" owner:nil options:nil].firstObject;
+    headView.frame = CGRectMake(0, 0, kScreenWidth, 200);
+    headView.backgroundColor = [UIColor clearColor];
+    self.tableView.tableHeaderView = headView;
+    WeakSelf();
+    [headView setHeaderViewClickBlock:^(UIImage *image) {
+        LBMyHeaderViewController * vc = [[LBMyHeaderViewController alloc] init];
+        vc.headImage = image;
+        [weakself.navigationController pushViewController:vc animated:YES];
+    }];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return 1;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    if (section == 0) {
-        return 1;
-    }else{
-        return 4;
-    }
-}
-
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.section == 0) {
-        return 100;
-    }else{
-        return 50;
-    }
+   return self.arrTitles.count;
     
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 10;
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 60;
+    
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.section == 0) {
-        LBMineHeadTableViewCell * cell1 = [tableView dequeueReusableCellWithIdentifier:@"cell1" forIndexPath:indexPath];
-        return cell1;
-    }else{
-        LBMineTableViewCell * cell2 = [tableView dequeueReusableCellWithIdentifier:@"cell2" forIndexPath:indexPath];
-        cell2.labelTitle.text = self.arrTitles[indexPath.row];
-        
-        return cell2;
-    }
+
+    LBMineTableViewCell * cell2 = [tableView dequeueReusableCellWithIdentifier:@"LBMineTableViewCell" forIndexPath:indexPath];
+    cell2.labelTitle.text = self.arrTitles[indexPath.row];
+    cell2.selectionStyle = UITableViewCellSelectionStyleNone;
+    return cell2;
+    
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.section ==0) {
-        LBMyDataViewController * myInfo = [[LBMyDataViewController alloc] init];
-        [self.navigationController pushViewController:myInfo animated:YES];
-    }else{
-        if (indexPath.row == 0) {
-            LBQuestionViewController * VC = [[LBQuestionViewController alloc] init];
-            [self.navigationController pushViewController:VC animated:YES];
-        }else if (indexPath.row ==1){
-            LBFeedbackViewController * VC = [[LBFeedbackViewController alloc] init];
-            [self.navigationController pushViewController:VC animated:YES];
-        }else if (indexPath.row == 2){
-            LBMessageCenterVC * VC = [[LBMessageCenterVC alloc] init];
-            [self.navigationController pushViewController:VC animated:YES];
-        }else if (indexPath.row == 3){
-            LBSysSettingVC * VC = [[LBSysSettingVC alloc] init];
-            [self.navigationController pushViewController:VC animated:YES];
-        }
+    if (indexPath.row == 0) {
+       
+    }else if (indexPath.row == 1) {
+        LBQuestionViewController * VC = [[LBQuestionViewController alloc] init];
+        [self.navigationController pushViewController:VC animated:YES];
+    }else if (indexPath.row ==2){
+        LBFeedbackViewController * VC = [[LBFeedbackViewController alloc] init];
+        [self.navigationController pushViewController:VC animated:YES];
+    }else if (indexPath.row == 3){
+        LBMessageCenterVC * VC = [[LBMessageCenterVC alloc] init];
+        [self.navigationController pushViewController:VC animated:YES];
+    }else if (indexPath.row == 4){
+        LBSysSettingVC * VC = [[LBSysSettingVC alloc] init];
+        [self.navigationController pushViewController:VC animated:YES];
     }
+    
 }
 
 

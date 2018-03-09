@@ -8,6 +8,7 @@
 
 #import "LBSysSettingVC.h"
 #import "LBSysSettingTableViewCell.h"
+#import "LBAboutViewController.h"
 
 @interface LBSysSettingVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -70,6 +71,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.row == 1) {
+        LBAboutViewController * vc = [[LBAboutViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

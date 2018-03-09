@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2D5F6EA688E969528B1ABD7A /* libPods-LanBaoAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C60637337E8A2C4239552D /* libPods-LanBaoAPP.a */; };
+		4115B92E2052CE0200B669C1 /* LBMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4115B92D2052CE0200B669C1 /* LBMineHeaderView.m */; };
+		4115B9302052CE0E00B669C1 /* LBMineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4115B92F2052CE0E00B669C1 /* LBMineHeaderView.xib */; };
+		4115B9342052D27D00B669C1 /* LBMyHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4115B9322052D27D00B669C1 /* LBMyHeaderViewController.m */; };
+		4115B9352052D27D00B669C1 /* LBMyHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4115B9332052D27D00B669C1 /* LBMyHeaderViewController.xib */; };
+		4115B9392052D72700B669C1 /* LBAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4115B9372052D72700B669C1 /* LBAboutViewController.m */; };
+		4115B93A2052D72700B669C1 /* LBAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4115B9382052D72700B669C1 /* LBAboutViewController.xib */; };
 		4163DDD9204EF02E00B8AC7B /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */; };
 		4163DDDA204EF02E00B8AC7B /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCD204EF02D00B8AC7B /* BRAddressPickerView.m */; };
 		4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4163DDCE204EF02D00B8AC7B /* BRCity.plist */; };
@@ -252,6 +258,15 @@
 
 /* Begin PBXFileReference section */
 		403FEB2473D380F7CDBB8962 /* Pods-LanBaoAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanBaoAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanBaoAPP/Pods-LanBaoAPP.release.xcconfig"; sourceTree = "<group>"; };
+		4115B92C2052CE0200B669C1 /* LBMineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMineHeaderView.h; sourceTree = "<group>"; };
+		4115B92D2052CE0200B669C1 /* LBMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMineHeaderView.m; sourceTree = "<group>"; };
+		4115B92F2052CE0E00B669C1 /* LBMineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMineHeaderView.xib; sourceTree = "<group>"; };
+		4115B9312052D27D00B669C1 /* LBMyHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMyHeaderViewController.h; sourceTree = "<group>"; };
+		4115B9322052D27D00B669C1 /* LBMyHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMyHeaderViewController.m; sourceTree = "<group>"; };
+		4115B9332052D27D00B669C1 /* LBMyHeaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBMyHeaderViewController.xib; sourceTree = "<group>"; };
+		4115B9362052D72700B669C1 /* LBAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAboutViewController.h; sourceTree = "<group>"; };
+		4115B9372052D72700B669C1 /* LBAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAboutViewController.m; sourceTree = "<group>"; };
+		4115B9382052D72700B669C1 /* LBAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBAboutViewController.xib; sourceTree = "<group>"; };
 		4163DDCA204EF02D00B8AC7B /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		4163DDCC204EF02D00B8AC7B /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -1824,6 +1839,9 @@
 				57B36BCF204E7791004D710F /* LBQuestionTableViewCell.xib */,
 				4163DDE620503E2A00B8AC7B /* LBTableViewCell.h */,
 				4163DDE720503E2A00B8AC7B /* LBTableViewCell.m */,
+				4115B92C2052CE0200B669C1 /* LBMineHeaderView.h */,
+				4115B92D2052CE0200B669C1 /* LBMineHeaderView.m */,
+				4115B92F2052CE0E00B669C1 /* LBMineHeaderView.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -1904,6 +1922,9 @@
 				41C8904A2048521B0000B7C3 /* LBMyDataViewController.m */,
 				41748A93204857E5004861F7 /* LBSysSettingVC.h */,
 				41748A94204857E5004861F7 /* LBSysSettingVC.m */,
+				4115B9362052D72700B669C1 /* LBAboutViewController.h */,
+				4115B9372052D72700B669C1 /* LBAboutViewController.m */,
+				4115B9382052D72700B669C1 /* LBAboutViewController.xib */,
 				41748A962048581A004861F7 /* LBMessageCenterVC.h */,
 				41748A972048581A004861F7 /* LBMessageCenterVC.m */,
 				41748A9920485837004861F7 /* LBQuestionViewController.h */,
@@ -1912,6 +1933,9 @@
 				41748A9D2048584F004861F7 /* LBFeedbackViewController.m */,
 				41748AA420485C40004861F7 /* LBUserHelpViewController.h */,
 				41748AA520485C40004861F7 /* LBUserHelpViewController.m */,
+				4115B9312052D27D00B669C1 /* LBMyHeaderViewController.h */,
+				4115B9322052D27D00B669C1 /* LBMyHeaderViewController.m */,
+				4115B9332052D27D00B669C1 /* LBMyHeaderViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2022,6 +2046,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */,
+				4115B9352052D27D00B669C1 /* LBMyHeaderViewController.xib in Resources */,
 				57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				4163DDED2051985000B8AC7B /* LBRegistTwoViewController.xib in Resources */,
@@ -2033,7 +2058,9 @@
 				57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */,
 				4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */,
 				4163DDF2205198CC00B8AC7B /* LBForgetTwoPassWordVC.xib in Resources */,
+				4115B9302052CE0E00B669C1 /* LBMineHeaderView.xib in Resources */,
 				41C8904320484C5C0000B7C3 /* LBMineTableViewCell.xib in Resources */,
+				4115B93A2052D72700B669C1 /* LBAboutViewController.xib in Resources */,
 				5724147220510F810059E828 /* LBHomeUpTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
@@ -2225,6 +2252,7 @@
 				41AA5434204D8F24007DA1FA /* UIView+Genie.m in Sources */,
 				41AA5402204D8F24007DA1FA /* UIImage+FileName.m in Sources */,
 				41AA5414204D8F24007DA1FA /* UILabel+AutoSize.m in Sources */,
+				4115B92E2052CE0200B669C1 /* LBMineHeaderView.m in Sources */,
 				41AA5437204D8F24007DA1FA /* UIView+Recursion.m in Sources */,
 				57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */,
 				41AA5433204D8F24007DA1FA /* UIView+Frame.m in Sources */,
@@ -2241,6 +2269,7 @@
 				41AA53B7204D8F23007DA1FA /* NSFileManager+Paths.m in Sources */,
 				41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */,
 				41AA53EB204D8F23007DA1FA /* UIButton+Indicator.m in Sources */,
+				4115B9392052D72700B669C1 /* LBAboutViewController.m in Sources */,
 				41AA5455204D8F24007DA1FA /* UIImage+WLCompress.m in Sources */,
 				41AA53FE204D8F24007DA1FA /* UIImage+BetterFace.m in Sources */,
 				41AA53D4204D8F23007DA1FA /* NSString+UUID.m in Sources */,
@@ -2305,6 +2334,7 @@
 				41AA5454204D8F24007DA1FA /* NSData+TGCompress.m in Sources */,
 				41AA53D2204D8F23007DA1FA /* NSString+Trims.m in Sources */,
 				41AA5422204D8F24007DA1FA /* UIScrollView+Pages.m in Sources */,
+				4115B9342052D27D00B669C1 /* LBMyHeaderViewController.m in Sources */,
 				4163DDE5204EF40700B8AC7B /* JYBottomSelectView.m in Sources */,
 				41AA53F9204D8F23007DA1FA /* UIFont+DynamicFontControl.m in Sources */,
 				41AA53EA204D8F23007DA1FA /* UIButton+CountDown.m in Sources */,

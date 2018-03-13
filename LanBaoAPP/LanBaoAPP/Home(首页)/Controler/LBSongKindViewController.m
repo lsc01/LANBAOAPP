@@ -28,7 +28,7 @@
     int i = 20;
     while (i--) {
         LBSongKindInfoModel *model = [[LBSongKindInfoModel alloc] init];
-        model.songName = @"爱仕达多 大";
+        model.songName = @"Song mane Name";
         model.singerName = @"阿斯达";
         model.islikely = NO;
         model.isShowInfo = NO;

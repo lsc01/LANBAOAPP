@@ -250,6 +250,8 @@
 		575F9B4C205769DE0021D0DB /* LBSongKindInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F9B4B205769DE0021D0DB /* LBSongKindInfoModel.m */; };
 		575F9B53205778E50021D0DB /* LBSongKindDetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F9B51205778E50021D0DB /* LBSongKindDetailInfoViewController.m */; };
 		575F9B54205778E50021D0DB /* LBSongKindDetailInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */; };
+		575F9B572057D0DD0021D0DB /* LBSongDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F9B562057D0DD0021D0DB /* LBSongDetailHeadView.m */; };
+		575F9B592057D0EE0021D0DB /* LBSongDetailHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575F9B582057D0EE0021D0DB /* LBSongDetailHeadView.xib */; };
 		57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BBC204E2C4C004D710F /* Main.storyboard */; };
 		57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */; };
 		57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */; };
@@ -737,6 +739,9 @@
 		575F9B50205778E50021D0DB /* LBSongKindDetailInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongKindDetailInfoViewController.h; sourceTree = "<group>"; };
 		575F9B51205778E50021D0DB /* LBSongKindDetailInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongKindDetailInfoViewController.m; sourceTree = "<group>"; };
 		575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBSongKindDetailInfoViewController.xib; sourceTree = "<group>"; };
+		575F9B552057D0DD0021D0DB /* LBSongDetailHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongDetailHeadView.h; sourceTree = "<group>"; };
+		575F9B562057D0DD0021D0DB /* LBSongDetailHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongDetailHeadView.m; sourceTree = "<group>"; };
+		575F9B582057D0EE0021D0DB /* LBSongDetailHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBSongDetailHeadView.xib; sourceTree = "<group>"; };
 		57B36BBC204E2C4C004D710F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		57B36BBE204E68BB004D710F /* LBMsgCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMsgCenterTableViewCell.h; sourceTree = "<group>"; };
 		57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMsgCenterTableViewCell.m; sourceTree = "<group>"; };
@@ -1926,6 +1931,9 @@
 				573C4C062056812A0003611B /* LBSongKindTableViewCell.h */,
 				573C4C072056812A0003611B /* LBSongKindTableViewCell.m */,
 				573C4C082056812A0003611B /* LBSongKindTableViewCell.xib */,
+				575F9B552057D0DD0021D0DB /* LBSongDetailHeadView.h */,
+				575F9B562057D0DD0021D0DB /* LBSongDetailHeadView.m */,
+				575F9B582057D0EE0021D0DB /* LBSongDetailHeadView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2073,6 +2081,7 @@
 			files = (
 				41C8904820484C6E0000B7C3 /* LBMineHeadTableViewCell.xib in Resources */,
 				4115B9352052D27D00B669C1 /* LBMyHeaderViewController.xib in Resources */,
+				575F9B592057D0EE0021D0DB /* LBSongDetailHeadView.xib in Resources */,
 				57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				573C4C0A2056812A0003611B /* LBSongKindTableViewCell.xib in Resources */,
@@ -2184,6 +2193,7 @@
 				41AA53F4204D8F23007DA1FA /* UIColor+Web.m in Sources */,
 				41AA53BB204D8F23007DA1FA /* NSObject+AutoCoding.m in Sources */,
 				41AA5417204D8F24007DA1FA /* UINavigationBar+Awesome.m in Sources */,
+				575F9B572057D0DD0021D0DB /* LBSongDetailHeadView.m in Sources */,
 				41AA544B204D8F24007DA1FA /* UIWebView+Style.m in Sources */,
 				41AA5432204D8F24007DA1FA /* UIView+Find.m in Sources */,
 				41AA5448204D8F24007DA1FA /* UIWebView+JS.m in Sources */,

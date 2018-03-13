@@ -247,6 +247,9 @@
 		573C4C05205678380003611B /* LBSongKindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C4C04205678380003611B /* LBSongKindViewController.m */; };
 		573C4C092056812A0003611B /* LBSongKindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C4C072056812A0003611B /* LBSongKindTableViewCell.m */; };
 		573C4C0A2056812A0003611B /* LBSongKindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573C4C082056812A0003611B /* LBSongKindTableViewCell.xib */; };
+		575F9B4C205769DE0021D0DB /* LBSongKindInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F9B4B205769DE0021D0DB /* LBSongKindInfoModel.m */; };
+		575F9B53205778E50021D0DB /* LBSongKindDetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F9B51205778E50021D0DB /* LBSongKindDetailInfoViewController.m */; };
+		575F9B54205778E50021D0DB /* LBSongKindDetailInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */; };
 		57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BBC204E2C4C004D710F /* Main.storyboard */; };
 		57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */; };
 		57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */; };
@@ -729,6 +732,11 @@
 		573C4C062056812A0003611B /* LBSongKindTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongKindTableViewCell.h; sourceTree = "<group>"; };
 		573C4C072056812A0003611B /* LBSongKindTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongKindTableViewCell.m; sourceTree = "<group>"; };
 		573C4C082056812A0003611B /* LBSongKindTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBSongKindTableViewCell.xib; sourceTree = "<group>"; };
+		575F9B4A205769DE0021D0DB /* LBSongKindInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongKindInfoModel.h; sourceTree = "<group>"; };
+		575F9B4B205769DE0021D0DB /* LBSongKindInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongKindInfoModel.m; sourceTree = "<group>"; };
+		575F9B50205778E50021D0DB /* LBSongKindDetailInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongKindDetailInfoViewController.h; sourceTree = "<group>"; };
+		575F9B51205778E50021D0DB /* LBSongKindDetailInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongKindDetailInfoViewController.m; sourceTree = "<group>"; };
+		575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBSongKindDetailInfoViewController.xib; sourceTree = "<group>"; };
 		57B36BBC204E2C4C004D710F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		57B36BBE204E68BB004D710F /* LBMsgCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMsgCenterTableViewCell.h; sourceTree = "<group>"; };
 		57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMsgCenterTableViewCell.m; sourceTree = "<group>"; };
@@ -1893,6 +1901,9 @@
 				41C890382048418C0000B7C3 /* LBHomeViewController.m */,
 				573C4C03205678380003611B /* LBSongKindViewController.h */,
 				573C4C04205678380003611B /* LBSongKindViewController.m */,
+				575F9B50205778E50021D0DB /* LBSongKindDetailInfoViewController.h */,
+				575F9B51205778E50021D0DB /* LBSongKindDetailInfoViewController.m */,
+				575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -1922,6 +1933,8 @@
 		5724146C20510B8D0059E828 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				575F9B4A205769DE0021D0DB /* LBSongKindInfoModel.h */,
+				575F9B4B205769DE0021D0DB /* LBSongKindInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2079,6 +2092,7 @@
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
+				575F9B54205778E50021D0DB /* LBSongKindDetailInfoViewController.xib in Resources */,
 				57B36BC7204E70C2004D710F /* LBMsgCenterHeaderView.xib in Resources */,
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
@@ -2221,6 +2235,7 @@
 				41AA5446204D8F24007DA1FA /* UIWebView+Blocks.m in Sources */,
 				41AA53FA204D8F23007DA1FA /* UIFont+WDCustomLoader.m in Sources */,
 				41AA53B2204D8F23007DA1FA /* NSDictionary+Block.m in Sources */,
+				575F9B53205778E50021D0DB /* LBSongKindDetailInfoViewController.m in Sources */,
 				41AA53E8204D8F23007DA1FA /* UIButton+BackgroundColor.m in Sources */,
 				41AA5459204D8F24007DA1FA /* NSString+TGTimeInterval.m in Sources */,
 				41AA53BF204D8F23007DA1FA /* NSObject+KVOBlocks.m in Sources */,
@@ -2294,6 +2309,7 @@
 				41AA5416204D8F24007DA1FA /* UILabel+SuggestSize.m in Sources */,
 				41748A9B20485837004861F7 /* LBQuestionViewController.m in Sources */,
 				41AA53D6204D8F23007DA1FA /* NSTimer+Addition.m in Sources */,
+				575F9B4C205769DE0021D0DB /* LBSongKindInfoModel.m in Sources */,
 				41AA5427204D8F24007DA1FA /* UITextField+Blocks.m in Sources */,
 				41AA53C3204D8F23007DA1FA /* NSString+Base64.m in Sources */,
 				41AA53D5204D8F23007DA1FA /* NSString+XML.m in Sources */,

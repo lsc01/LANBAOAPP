@@ -8,6 +8,6 @@
 
 #import "CSBaseFuncVC.h"
 
-@interface LBSongKindViewController : CSBaseFuncVC
+@interface LBSongKindViewController : UIViewController
 
 @end

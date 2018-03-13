@@ -20,7 +20,9 @@
 
 @property (nonatomic ,strong) NSArray * arrImages;
 @property (nonatomic ,strong) NSArray * arrTitles;
-
+@property (nonatomic ,strong)  LBHomeBottomPlayView * playView;
+@property (nonatomic ,strong) LBSongKindViewController * kindVC;
+@property (nonatomic ,strong) UIView * viewChilder;//用于承载子控制器视图
 @end
 
 @implementation LBHomeViewController
@@ -38,11 +40,11 @@
 }
 
 -(void)setnav{
-    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_person"] style:UIBarButtonItemStylePlain target:self action:@selector(leftBarbuttonClick)];
+    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_person"] style:UIBarButtonItemStylePlain target:self action:@selector(rightBarbuttonClick)];
     self.navigationItem.rightBarButtonItem = item;
 }
 
--(void)leftBarbuttonClick{
+-(void)rightBarbuttonClick{
     LBMyViewController * myVC = [[LBMyViewController alloc] init];
     
     [self.navigationController pushViewController:myVC animated:YES];
@@ -107,44 +109,86 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    LBSongKindViewController * kindVC = [[LBSongKindViewController alloc] init];
-    kindVC.title = self.arrTitles[indexPath.section][indexPath.row];
-    [self.navigationController pushViewController:kindVC animated:YES];
+    
+    self.viewChilder = [[UIView alloc] init];
+    [self.view addSubview:self.viewChilder];
+    [self.viewChilder mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.right.mas_equalTo(self.view);
+        make.bottom.mas_equalTo(self.playView.mas_top);
+    }];
+    self.kindVC = [[LBSongKindViewController alloc] init];
+    self.title = self.arrTitles[indexPath.section][indexPath.row];
+    self.kindVC.view.frame = self.viewChilder.bounds;
+    [self.viewChilder addSubview:self.kindVC.view];
+    [self addChildViewController:self.kindVC];
+//    [self.navigationController pushViewController:kindVC animated:YES];
+    
+    //显示的这个视图的时候，更改导航栏左右barButton
+    [self updateNavBarButton];
+}
+
+-(void)updateNavBarButton{
+    UIBarButtonItem * leftItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_icon_back"] style:UIBarButtonItemStylePlain target:self action:@selector(removeChildView)];
+    self.navigationItem.leftBarButtonItem = leftItem;
+    self.navigationItem.rightBarButtonItem = nil;
+    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithTitle:@"添加" style:UIBarButtonItemStylePlain target:self action:@selector(addNewSongs)];
+    self.navigationItem.rightBarButtonItem = item;
+}
+-(void)removeChildView{
+    
+    [self.kindVC.view removeFromSuperview];
+    self.kindVC.view = nil;
+    [self.viewChilder removeFromSuperview];
+    self.viewChilder = nil;
+    [self.kindVC removeFromParentViewController];
+    self.kindVC = nil;
+    
+    self.title = nil;
+    self.navigationItem.leftBarButtonItem = nil;
+    self.navigationItem.rightBarButtonItem = nil;
+    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_person"] style:UIBarButtonItemStylePlain target:self action:@selector(rightBarbuttonClick)];
+    self.navigationItem.rightBarButtonItem = item;
+    
+}
+
+
+-(void)addNewSongs{
+    NSLog(@"这个方法暂定");
 }
 
 -(void)setBottomPlayView{
-    LBHomeBottomPlayView * playView = [[NSBundle mainBundle] loadNibNamed:@"LBHomeBottomPlayView" owner:nil options:nil].firstObject;
+    self.playView = [[NSBundle mainBundle] loadNibNamed:@"LBHomeBottomPlayView" owner:nil options:nil].firstObject;
     
     UIView * viewCurrProgress = [[UIView alloc] init];
     viewCurrProgress.backgroundColor = HEXCOLOR(kblueColor);
-    [playView.viewProgressBar addSubview:viewCurrProgress];
+    [self.playView.viewProgressBar addSubview:viewCurrProgress];
     
-    [self.view addSubview:playView];
+    [self.view addSubview:self.playView];
     
     [viewCurrProgress mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.mas_equalTo(playView.viewProgressBar);
-        make.width.mas_equalTo(playView.viewProgressBar).multipliedBy(0.6);
+        make.top.left.bottom.mas_equalTo(self.playView.viewProgressBar);
+        make.width.mas_equalTo(self.playView.viewProgressBar).multipliedBy(0.6);
     }];
 
-    [playView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.playView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.bottom.right.mas_equalTo(self.view);
         make.height.mas_equalTo(60);
         
     }];
     
-    [playView setHeadImageLookUpBlock:^(UIImage *image) {
-        
+    [self.playView setHeadImageLookUpBlock:^(UIImage *image) {
+        NSLog(@"a");
     }];
-    [playView setSongInfoLookUpBlock:^{
-        
-    }];
-    
-    [playView setPlayOrPauseBlock:^(BOOL isPlay) {
-        
+    [self.playView setSongInfoLookUpBlock:^{
+        NSLog(@"b");
     }];
     
-    [playView setSongMenuLookUpBlock:^{
-        
+    [self.playView setPlayOrPauseBlock:^(BOOL isPlay) {
+        NSLog(@"c");
+    }];
+    
+    [self.playView setSongMenuLookUpBlock:^{
+        NSLog(@"d");
     }];
     
 }

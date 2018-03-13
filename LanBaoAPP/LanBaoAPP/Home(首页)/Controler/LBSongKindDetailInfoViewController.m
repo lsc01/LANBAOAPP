@@ -7,10 +7,13 @@
 //
 
 #import "LBSongKindDetailInfoViewController.h"
+#import "LBSongDetailHeadView.h"
+#import "LBKindDetailInfoCell.h"
+#import "LBAddSongsViewController.h"
 
 @interface LBSongKindDetailInfoViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic ,strong) UITableView * tableView;
-
+@property (nonatomic ,strong)LBSongDetailHeadView * listheadView;
 @end
 
 @implementation LBSongKindDetailInfoViewController
@@ -31,23 +34,47 @@
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.showsHorizontalScrollIndicator = NO;
     [self.view addSubview:self.tableView];
-    [self.tableView registerNib:[UINib nibWithNibName:@"LBSongKindTableViewCell" bundle:nil] forCellReuseIdentifier:@"LBSongKindTableViewCell"];
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"LBKindDetailInfoCell" bundle:nil] forCellReuseIdentifier:@"LBKindDetailInfoCell"];
+  
     
-    UIView * headView = [[UIView alloc] init];
-    headView.backgroundColor = [UIColor redColor];
-    [self.view addSubview:headView];
+    self.listheadView = [[NSBundle mainBundle] loadNibNamed:@"LBSongDetailHeadView" owner:nil options:nil].firstObject;
+    [self.view addSubview:self.listheadView];
     
+    UIImageView * imageview = [[UIImageView alloc] initWithImage:self.image];
     
+    [self.view addSubview:imageview];
     
-    [headView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [imageview mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.right.mas_equalTo(self.view);
+        make.height.mas_equalTo(kScreenWidth*0.8);
+//        make.bottom.mas_equalTo(self.listheadView.mas_top);
+    }];
+    
+    [self.listheadView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(self.view);
-        make.bottom.mas_equalTo(self.tableView.mas_top);
-        make.height.mas_equalTo(50);
+        make.height.mas_equalTo(60);
+        make.top.mas_equalTo(imageview.mas_bottom);
     }];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.bottom.right.mas_equalTo(self.view);
-        make.height.mas_equalTo(350);
+        make.top.mas_equalTo(self.listheadView.mas_bottom);
+    }];
+    
+    
+    WeakSelf();
+    [self.listheadView setAddSongsBlock:^{
+        LBAddSongsViewController * addVC = [[LBAddSongsViewController alloc] init];
+        [weakself presentViewController:addVC animated:YES completion:^{
+            
+        }];
+    }];
+    
+    [self.listheadView setRepeatBlock:^{
+        
+    }];
+    
+    [self.listheadView setDeleteSongsBlock:^{
+        
     }];
 }
 
@@ -56,11 +83,11 @@
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 50;
+    return 55;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    LBKindDetailInfoCell * cell = [tableView dequeueReusableCellWithIdentifier:@"LBKindDetailInfoCell" forIndexPath:indexPath];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }

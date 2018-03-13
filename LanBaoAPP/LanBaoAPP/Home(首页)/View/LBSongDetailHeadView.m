@@ -18,4 +18,15 @@
 }
 */
 
+- (IBAction)repeatClick:(UIButton *)sender {
+    _repeatBlock?_repeatBlock():nil;
+}
+
+- (IBAction)addSongsClick:(UIButton *)sender {
+    _addSongsBlock?_addSongsBlock():nil;
+}
+
+- (IBAction)deleteSongClick:(UIButton *)sender {
+    _deleteSongsBlock?_deleteSongsBlock():nil;
+}
 @end

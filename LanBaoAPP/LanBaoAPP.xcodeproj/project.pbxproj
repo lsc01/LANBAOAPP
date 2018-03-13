@@ -14,6 +14,14 @@
 		4115B9352052D27D00B669C1 /* LBMyHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4115B9332052D27D00B669C1 /* LBMyHeaderViewController.xib */; };
 		4115B9392052D72700B669C1 /* LBAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4115B9372052D72700B669C1 /* LBAboutViewController.m */; };
 		4115B93A2052D72700B669C1 /* LBAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4115B9382052D72700B669C1 /* LBAboutViewController.xib */; };
+		41504DC920580C5F00ABE1A5 /* LBKindDetailInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41504DC720580C5F00ABE1A5 /* LBKindDetailInfoCell.m */; };
+		41504DCA20580C5F00ABE1A5 /* LBKindDetailInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41504DC820580C5F00ABE1A5 /* LBKindDetailInfoCell.xib */; };
+		41504DCD205813F000ABE1A5 /* LBAddSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41504DCC205813F000ABE1A5 /* LBAddSongsViewController.m */; };
+		41504DD02058146F00ABE1A5 /* LBAddSongsUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41504DCF2058146F00ABE1A5 /* LBAddSongsUpView.m */; };
+		41504DD22058147B00ABE1A5 /* LBAddSongsUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41504DD12058147B00ABE1A5 /* LBAddSongsUpView.xib */; };
+		41504DD620581A4A00ABE1A5 /* LBAddSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41504DD420581A4A00ABE1A5 /* LBAddSongsCell.m */; };
+		41504DD720581A4A00ABE1A5 /* LBAddSongsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41504DD520581A4A00ABE1A5 /* LBAddSongsCell.xib */; };
+		41504DDA20581CEA00ABE1A5 /* LBAddSongsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41504DD920581CEA00ABE1A5 /* LBAddSongsModel.m */; };
 		4163DDD9204EF02E00B8AC7B /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */; };
 		4163DDDA204EF02E00B8AC7B /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163DDCD204EF02D00B8AC7B /* BRAddressPickerView.m */; };
 		4163DDDB204EF02E00B8AC7B /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4163DDCE204EF02D00B8AC7B /* BRCity.plist */; };
@@ -275,6 +283,19 @@
 		4115B9362052D72700B669C1 /* LBAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAboutViewController.h; sourceTree = "<group>"; };
 		4115B9372052D72700B669C1 /* LBAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAboutViewController.m; sourceTree = "<group>"; };
 		4115B9382052D72700B669C1 /* LBAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBAboutViewController.xib; sourceTree = "<group>"; };
+		41504DC620580C5F00ABE1A5 /* LBKindDetailInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBKindDetailInfoCell.h; sourceTree = "<group>"; };
+		41504DC720580C5F00ABE1A5 /* LBKindDetailInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBKindDetailInfoCell.m; sourceTree = "<group>"; };
+		41504DC820580C5F00ABE1A5 /* LBKindDetailInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBKindDetailInfoCell.xib; sourceTree = "<group>"; };
+		41504DCB205813F000ABE1A5 /* LBAddSongsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddSongsViewController.h; sourceTree = "<group>"; };
+		41504DCC205813F000ABE1A5 /* LBAddSongsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddSongsViewController.m; sourceTree = "<group>"; };
+		41504DCE2058146F00ABE1A5 /* LBAddSongsUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddSongsUpView.h; sourceTree = "<group>"; };
+		41504DCF2058146F00ABE1A5 /* LBAddSongsUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddSongsUpView.m; sourceTree = "<group>"; };
+		41504DD12058147B00ABE1A5 /* LBAddSongsUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBAddSongsUpView.xib; sourceTree = "<group>"; };
+		41504DD320581A4A00ABE1A5 /* LBAddSongsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddSongsCell.h; sourceTree = "<group>"; };
+		41504DD420581A4A00ABE1A5 /* LBAddSongsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddSongsCell.m; sourceTree = "<group>"; };
+		41504DD520581A4A00ABE1A5 /* LBAddSongsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBAddSongsCell.xib; sourceTree = "<group>"; };
+		41504DD820581CEA00ABE1A5 /* LBAddSongsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddSongsModel.h; sourceTree = "<group>"; };
+		41504DD920581CEA00ABE1A5 /* LBAddSongsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddSongsModel.m; sourceTree = "<group>"; };
 		4163DDCA204EF02D00B8AC7B /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		4163DDCB204EF02D00B8AC7B /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		4163DDCC204EF02D00B8AC7B /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -1909,6 +1930,8 @@
 				575F9B50205778E50021D0DB /* LBSongKindDetailInfoViewController.h */,
 				575F9B51205778E50021D0DB /* LBSongKindDetailInfoViewController.m */,
 				575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */,
+				41504DCB205813F000ABE1A5 /* LBAddSongsViewController.h */,
+				41504DCC205813F000ABE1A5 /* LBAddSongsViewController.m */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -1934,6 +1957,15 @@
 				575F9B552057D0DD0021D0DB /* LBSongDetailHeadView.h */,
 				575F9B562057D0DD0021D0DB /* LBSongDetailHeadView.m */,
 				575F9B582057D0EE0021D0DB /* LBSongDetailHeadView.xib */,
+				41504DC620580C5F00ABE1A5 /* LBKindDetailInfoCell.h */,
+				41504DC720580C5F00ABE1A5 /* LBKindDetailInfoCell.m */,
+				41504DC820580C5F00ABE1A5 /* LBKindDetailInfoCell.xib */,
+				41504DCE2058146F00ABE1A5 /* LBAddSongsUpView.h */,
+				41504DCF2058146F00ABE1A5 /* LBAddSongsUpView.m */,
+				41504DD12058147B00ABE1A5 /* LBAddSongsUpView.xib */,
+				41504DD320581A4A00ABE1A5 /* LBAddSongsCell.h */,
+				41504DD420581A4A00ABE1A5 /* LBAddSongsCell.m */,
+				41504DD520581A4A00ABE1A5 /* LBAddSongsCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1943,6 +1975,8 @@
 			children = (
 				575F9B4A205769DE0021D0DB /* LBSongKindInfoModel.h */,
 				575F9B4B205769DE0021D0DB /* LBSongKindInfoModel.m */,
+				41504DD820581CEA00ABE1A5 /* LBAddSongsModel.h */,
+				41504DD920581CEA00ABE1A5 /* LBAddSongsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2083,6 +2117,7 @@
 				4115B9352052D27D00B669C1 /* LBMyHeaderViewController.xib in Resources */,
 				575F9B592057D0EE0021D0DB /* LBSongDetailHeadView.xib in Resources */,
 				57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */,
+				41504DD22058147B00ABE1A5 /* LBAddSongsUpView.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
 				573C4C0A2056812A0003611B /* LBSongKindTableViewCell.xib in Resources */,
 				4163DDED2051985000B8AC7B /* LBRegistTwoViewController.xib in Resources */,
@@ -2103,6 +2138,8 @@
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
 				575F9B54205778E50021D0DB /* LBSongKindDetailInfoViewController.xib in Resources */,
 				57B36BC7204E70C2004D710F /* LBMsgCenterHeaderView.xib in Resources */,
+				41504DCA20580C5F00ABE1A5 /* LBKindDetailInfoCell.xib in Resources */,
+				41504DD720581A4A00ABE1A5 /* LBAddSongsCell.xib in Resources */,
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
 				41C468A02047062200AA8BFF /* LBRegistPasswordVC.xib in Resources */,
 				41748AA320485958004861F7 /* LBSysSettingTableViewCell.xib in Resources */,
@@ -2298,6 +2335,7 @@
 				41AA5433204D8F24007DA1FA /* UIView+Frame.m in Sources */,
 				41AA53D8204D8F23007DA1FA /* NSURL+Param.m in Sources */,
 				41AA53DE204D8F23007DA1FA /* UIApplication+ApplicationSize.m in Sources */,
+				41504DCD205813F000ABE1A5 /* LBAddSongsViewController.m in Sources */,
 				41AA5441204D8F24007DA1FA /* UIViewController+MJPopupViewController.m in Sources */,
 				41AA53E4204D8F23007DA1FA /* UIBezierPath+Length.m in Sources */,
 				41AA542F204D8F24007DA1FA /* UIView+BlockGesture.m in Sources */,
@@ -2305,6 +2343,7 @@
 				41AA53D1204D8F23007DA1FA /* NSString+Size.m in Sources */,
 				41AA5440204D8F24007DA1FA /* UIViewController+BlockSegue.m in Sources */,
 				41AA53BC204D8F23007DA1FA /* NSObject+Blocks.m in Sources */,
+				41504DDA20581CEA00ABE1A5 /* LBAddSongsModel.m in Sources */,
 				41AA53E6204D8F23007DA1FA /* UIBezierPath+SVG.m in Sources */,
 				41AA53B7204D8F23007DA1FA /* NSFileManager+Paths.m in Sources */,
 				41748A982048581A004861F7 /* LBMessageCenterVC.m in Sources */,
@@ -2338,6 +2377,7 @@
 				41AA5429204D8F24007DA1FA /* UITextField+Select.m in Sources */,
 				41AA51F0204D8DF7007DA1FA /* CSBaseFuncVC.m in Sources */,
 				41AA53E3204D8F23007DA1FA /* UIBezierPath+BasicShapes.m in Sources */,
+				41504DC920580C5F00ABE1A5 /* LBKindDetailInfoCell.m in Sources */,
 				41AA544E204D8F24007DA1FA /* UIWindow+Hierarchy.m in Sources */,
 				41AA5415204D8F24007DA1FA /* UILabel+ESAdjustableLabel.m in Sources */,
 				41AA53B5204D8F23007DA1FA /* NSDictionary+URL.m in Sources */,
@@ -2377,6 +2417,8 @@
 				41AA53D2204D8F23007DA1FA /* NSString+Trims.m in Sources */,
 				41AA5422204D8F24007DA1FA /* UIScrollView+Pages.m in Sources */,
 				4115B9342052D27D00B669C1 /* LBMyHeaderViewController.m in Sources */,
+				41504DD620581A4A00ABE1A5 /* LBAddSongsCell.m in Sources */,
+				41504DD02058146F00ABE1A5 /* LBAddSongsUpView.m in Sources */,
 				4163DDE5204EF40700B8AC7B /* JYBottomSelectView.m in Sources */,
 				41AA53F9204D8F23007DA1FA /* UIFont+DynamicFontControl.m in Sources */,
 				41AA53EA204D8F23007DA1FA /* UIButton+CountDown.m in Sources */,

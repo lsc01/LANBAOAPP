@@ -49,7 +49,9 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"LBSongKindTableViewCell" bundle:nil] forCellReuseIdentifier:@"LBSongKindTableViewCell"];
     
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.right.mas_equalTo(self.view);
+        make.left.right.mas_equalTo(self.view);
+        make.top.mas_equalTo(self.view).with.offset(10);
+        make.bottom.mas_equalTo(self.view).with.offset(-5);
     }];
     
 }
@@ -88,13 +90,14 @@
         [self.arrData removeObjectAtIndex:indexPath.row];
         [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
     } longPressGest:^{
-        [self showCurrSongDetailInfoVC];
+        [self showCurrSongDetailInfoVC:cell.imageViewHead.image];
     }];
     return cell;
 }
 
--(void)showCurrSongDetailInfoVC{
+-(void)showCurrSongDetailInfoVC:(UIImage *)image{
     LBSongKindDetailInfoViewController * vc = [[LBSongKindDetailInfoViewController alloc] init];
+    vc.image = image;
     [self presentViewController:vc animated:YES completion:^{
         
     }];

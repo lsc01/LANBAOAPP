@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="179" id="KGk-i7-Jjw" customClass="LBKindDetailInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单车" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFE-mz-v0O">
+                        <rect key="frame" x="10" y="10" width="37" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="qie-ho-rep"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TD-E4-UxE">
+                        <rect key="frame" x="240" y="15.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="J4C-EU-db8"/>
+                            <constraint firstAttribute="width" constant="25" id="qdb-ZL-psi"/>
+                        </constraints>
+                        <state key="normal" image="kindCell_dislike"/>
+                        <state key="selected" image="kindCell_like"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fy-BL-VTy">
+                        <rect key="frame" x="285" y="15.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="6za-r8-iAK"/>
+                            <constraint firstAttribute="height" constant="25" id="ceR-qE-eSG"/>
+                        </constraints>
+                        <state key="normal" image="kindCell_delete"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OS5-oP-5JS">
+                        <rect key="frame" x="10" y="53.5" width="300" height="1"/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="btf-zq-Z2h"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="陈奕迅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sT-zC-RJK">
+                        <rect key="frame" x="10" y="33.5" width="43" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="fPr-ug-UVP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4fy-BL-VTy" firstAttribute="leading" secondItem="8TD-E4-UxE" secondAttribute="trailing" constant="20" id="2NW-Ue-Vl0"/>
+                    <constraint firstItem="BFE-mz-v0O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Agu-fa-prA"/>
+                    <constraint firstItem="OS5-oP-5JS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="IK1-Ks-bGB"/>
+                    <constraint firstAttribute="trailing" secondItem="OS5-oP-5JS" secondAttribute="trailing" constant="10" id="Kux-Fb-py8"/>
+                    <constraint firstAttribute="bottom" secondItem="7sT-zC-RJK" secondAttribute="bottom" constant="6" id="Z6X-QX-202"/>
+                    <constraint firstItem="4fy-BL-VTy" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="csf-dk-rim"/>
+                    <constraint firstAttribute="trailing" secondItem="4fy-BL-VTy" secondAttribute="trailing" constant="10" id="hlZ-7F-sZr"/>
+                    <constraint firstItem="8TD-E4-UxE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oQ2-lk-932"/>
+                    <constraint firstItem="7sT-zC-RJK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="rpF-Ci-c5N"/>
+                    <constraint firstAttribute="bottom" secondItem="OS5-oP-5JS" secondAttribute="bottom" id="tOD-Ub-RDe"/>
+                    <constraint firstItem="BFE-mz-v0O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="uBY-kS-KDJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="28" y="170"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kindCell_delete" width="32" height="32"/>
+        <image name="kindCell_dislike" width="32" height="32"/>
+        <image name="kindCell_like" width="32" height="32"/>
+    </resources>
+</document>

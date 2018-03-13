@@ -10,4 +10,6 @@
 
 @interface LBSongKindDetailInfoViewController : CSBaseFuncVC
 
+
+@property (nonatomic ,strong) UIImage * image;
 @end

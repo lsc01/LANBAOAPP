@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LBHomeDownTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *labeltitle;
 
 @end

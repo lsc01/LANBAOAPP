@@ -10,4 +10,5 @@
 
 @interface LBHomeCenterHeaderView : UITableViewHeaderFooterView
 
+
 @end

@@ -67,6 +67,11 @@
                     <constraint firstItem="hJr-Kq-43f" firstAttribute="leading" secondItem="Kwx-RO-cHU" secondAttribute="trailing" constant="15" id="sdf-XA-Mxq"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewHead" destination="Kwx-RO-cHU" id="fK5-fM-kB8"/>
+                <outlet property="labelDesc" destination="XrG-h6-Cze" id="k6A-mW-Chl"/>
+                <outlet property="labelTitle" destination="hJr-Kq-43f" id="3T7-0p-NoW"/>
+            </connections>
             <point key="canvasLocation" x="33" y="70.5"/>
         </tableViewCell>
     </objects>

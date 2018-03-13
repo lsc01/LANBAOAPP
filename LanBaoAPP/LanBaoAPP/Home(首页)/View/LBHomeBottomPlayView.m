@@ -18,4 +18,20 @@
 }
 */
 
+- (IBAction)lookUpSongInfoClick:(UIButton *)sender {
+    _songInfoLookUpBlock?_songInfoLookUpBlock():nil;
+}
+
+- (IBAction)headImageBtnClick:(UIButton *)sender {
+    _HeadImageLookUpBlock?_HeadImageLookUpBlock(sender.currentBackgroundImage):nil;
+}
+
+- (IBAction)menuBtnClick:(UIButton *)sender {
+    _songMenuLookUpBlock?_songMenuLookUpBlock():nil;
+}
+
+- (IBAction)playbtnClick:(UIButton *)sender {
+    sender.selected = !sender.selected;
+    _playOrPauseBlock?_playOrPauseBlock(sender.selected):nil;
+}
 @end

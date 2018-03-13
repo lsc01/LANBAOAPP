@@ -13,6 +13,7 @@
 #import "BSENavigationController.h"
 #import "LBRegistPasswordVC.h"
 
+
 @interface LBLoginViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textFieldUserName;
@@ -51,6 +52,7 @@
     
     BSENavigationController * nav = [[BSENavigationController alloc] initWithRootViewController:homeVC];
     AppDelegate *delegate = (AppDelegate *) [UIApplication sharedApplication].delegate;
+    
     delegate.window.rootViewController = nav;
     [delegate.window makeKeyAndVisible];
     

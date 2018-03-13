@@ -6,17 +6,118 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LBHomeBottomPlayView">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All About That Bass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3O-oO-oAa">
+                    <rect key="frame" x="70" y="7" width="230" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="LkH-Jg-ow8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="艾薇儿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVm-Wo-I2F">
+                    <rect key="frame" x="70" y="35" width="230" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="WdH-RR-roF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwg-Si-EhF">
+                    <rect key="frame" x="340" y="18" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="Dgs-SL-6x6"/>
+                        <constraint firstAttribute="height" constant="25" id="Fcv-fa-qhq"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="player_menu"/>
+                    <connections>
+                        <action selector="menuBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Aid-Kx-ReV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86e-Rq-pIF">
+                    <rect key="frame" x="310" y="18" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="M9k-y1-Nne"/>
+                        <constraint firstAttribute="width" constant="25" id="pPR-H0-qfw"/>
+                    </constraints>
+                    <state key="normal" image="player_play"/>
+                    <connections>
+                        <action selector="playbtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="DJI-hP-fmt"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ltn-zv-J4f">
+                    <rect key="frame" x="60" y="0.0" width="315" height="2"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="NGQ-Zu-TCH"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQx-mL-3ta">
+                    <rect key="frame" x="60" y="2" width="250" height="58"/>
+                    <connections>
+                        <action selector="lookUpSongInfoClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="9DF-74-ZEk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTq-Fn-pEJ">
+                    <rect key="frame" x="2" y="-3" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="zTq-Fn-pEJ" secondAttribute="height" multiplier="1:1" id="mCK-3K-Dkr"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="mine_header"/>
+                    <connections>
+                        <action selector="headImageBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="oyh-Mh-1fr"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zTq-Fn-pEJ" secondAttribute="bottom" id="8be-HM-P1d"/>
+                <constraint firstItem="BQx-mL-3ta" firstAttribute="top" secondItem="Ltn-zv-J4f" secondAttribute="bottom" id="9os-I2-NX4"/>
+                <constraint firstItem="86e-Rq-pIF" firstAttribute="leading" secondItem="BQx-mL-3ta" secondAttribute="trailing" id="AAQ-ri-F3t"/>
+                <constraint firstItem="i3O-oO-oAa" firstAttribute="top" secondItem="Ltn-zv-J4f" secondAttribute="bottom" constant="5" id="HKs-tz-E04"/>
+                <constraint firstAttribute="trailing" secondItem="Ltn-zv-J4f" secondAttribute="trailing" id="Lhl-b0-O0Q"/>
+                <constraint firstItem="Ltn-zv-J4f" firstAttribute="leading" secondItem="zTq-Fn-pEJ" secondAttribute="trailing" id="RpS-TG-xmb"/>
+                <constraint firstAttribute="bottom" secondItem="lVm-Wo-I2F" secondAttribute="bottom" constant="5" id="Uvx-xd-c0Y"/>
+                <constraint firstItem="Ltn-zv-J4f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="a0j-Rf-Xef"/>
+                <constraint firstItem="zTq-Fn-pEJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bxV-bl-igh"/>
+                <constraint firstItem="BQx-mL-3ta" firstAttribute="leading" secondItem="zTq-Fn-pEJ" secondAttribute="trailing" id="cdc-Wm-mxN"/>
+                <constraint firstItem="i3O-oO-oAa" firstAttribute="leading" secondItem="zTq-Fn-pEJ" secondAttribute="trailing" constant="10" id="ig5-qC-NVK"/>
+                <constraint firstAttribute="bottom" secondItem="BQx-mL-3ta" secondAttribute="bottom" id="kE8-Uy-wAz"/>
+                <constraint firstItem="wwg-Si-EhF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="kYj-Bv-wDh"/>
+                <constraint firstItem="lVm-Wo-I2F" firstAttribute="leading" secondItem="i3O-oO-oAa" secondAttribute="leading" id="lmf-RP-3MD"/>
+                <constraint firstItem="86e-Rq-pIF" firstAttribute="centerY" secondItem="wwg-Si-EhF" secondAttribute="centerY" id="mlE-fZ-keZ"/>
+                <constraint firstItem="lVm-Wo-I2F" firstAttribute="trailing" secondItem="i3O-oO-oAa" secondAttribute="trailing" id="nVC-Rm-1SU"/>
+                <constraint firstItem="wwg-Si-EhF" firstAttribute="leading" secondItem="86e-Rq-pIF" secondAttribute="trailing" constant="5" id="q57-Yt-n5K"/>
+                <constraint firstAttribute="trailing" secondItem="wwg-Si-EhF" secondAttribute="trailing" constant="10" id="rOS-yk-Pnj"/>
+                <constraint firstItem="86e-Rq-pIF" firstAttribute="leading" secondItem="i3O-oO-oAa" secondAttribute="trailing" constant="10" id="sMJ-a3-gK6"/>
+                <constraint firstItem="zTq-Fn-pEJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uj4-D1-eJ9"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="26.5" y="-194"/>
+            <connections>
+                <outlet property="btnHeadImage" destination="zTq-Fn-pEJ" id="riH-Ee-XLp"/>
+                <outlet property="btnMenu" destination="wwg-Si-EhF" id="Dwc-8F-jkx"/>
+                <outlet property="btnPlay" destination="86e-Rq-pIF" id="FYA-fM-fAV"/>
+                <outlet property="labelSinger" destination="lVm-Wo-I2F" id="4WS-xo-j5E"/>
+                <outlet property="labelSongName" destination="i3O-oO-oAa" id="TNd-ot-Mrl"/>
+                <outlet property="viewProgressBar" destination="Ltn-zv-J4f" id="Zx8-wa-Brf"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="-172"/>
         </view>
     </objects>
+    <resources>
+        <image name="mine_header" width="200" height="200"/>
+        <image name="player_menu" width="32" height="32"/>
+        <image name="player_play" width="32" height="32"/>
+    </resources>
 </document>

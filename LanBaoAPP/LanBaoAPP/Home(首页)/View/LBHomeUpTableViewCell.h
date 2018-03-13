@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface LBHomeUpTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *labelTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewHead;
+@property (weak, nonatomic) IBOutlet UILabel *labelDesc;
 
 @end

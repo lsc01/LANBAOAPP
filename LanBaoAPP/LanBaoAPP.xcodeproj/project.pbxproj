@@ -244,6 +244,9 @@
 		5724147C20510FD80059E828 /* LBHomeCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724147B20510FD80059E828 /* LBHomeCenterHeaderView.xib */; };
 		5724147F20511BCC0059E828 /* LBHomeBottomPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724147E20511BCC0059E828 /* LBHomeBottomPlayView.m */; };
 		5724148120511BDE0059E828 /* LBHomeBottomPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724148020511BDE0059E828 /* LBHomeBottomPlayView.xib */; };
+		573C4C05205678380003611B /* LBSongKindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C4C04205678380003611B /* LBSongKindViewController.m */; };
+		573C4C092056812A0003611B /* LBSongKindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C4C072056812A0003611B /* LBSongKindTableViewCell.m */; };
+		573C4C0A2056812A0003611B /* LBSongKindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573C4C082056812A0003611B /* LBSongKindTableViewCell.xib */; };
 		57B36BBD204E2C4C004D710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BBC204E2C4C004D710F /* Main.storyboard */; };
 		57B36BC1204E68BB004D710F /* LBMsgCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */; };
 		57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B36BC0204E68BB004D710F /* LBMsgCenterTableViewCell.xib */; };
@@ -721,6 +724,11 @@
 		5724147D20511BCC0059E828 /* LBHomeBottomPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeBottomPlayView.h; sourceTree = "<group>"; };
 		5724147E20511BCC0059E828 /* LBHomeBottomPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeBottomPlayView.m; sourceTree = "<group>"; };
 		5724148020511BDE0059E828 /* LBHomeBottomPlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBHomeBottomPlayView.xib; sourceTree = "<group>"; };
+		573C4C03205678380003611B /* LBSongKindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongKindViewController.h; sourceTree = "<group>"; };
+		573C4C04205678380003611B /* LBSongKindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongKindViewController.m; sourceTree = "<group>"; };
+		573C4C062056812A0003611B /* LBSongKindTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSongKindTableViewCell.h; sourceTree = "<group>"; };
+		573C4C072056812A0003611B /* LBSongKindTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSongKindTableViewCell.m; sourceTree = "<group>"; };
+		573C4C082056812A0003611B /* LBSongKindTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBSongKindTableViewCell.xib; sourceTree = "<group>"; };
 		57B36BBC204E2C4C004D710F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		57B36BBE204E68BB004D710F /* LBMsgCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMsgCenterTableViewCell.h; sourceTree = "<group>"; };
 		57B36BBF204E68BB004D710F /* LBMsgCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMsgCenterTableViewCell.m; sourceTree = "<group>"; };
@@ -1883,6 +1891,8 @@
 			children = (
 				41C890372048418C0000B7C3 /* LBHomeViewController.h */,
 				41C890382048418C0000B7C3 /* LBHomeViewController.m */,
+				573C4C03205678380003611B /* LBSongKindViewController.h */,
+				573C4C04205678380003611B /* LBSongKindViewController.m */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -1902,6 +1912,9 @@
 				5724147D20511BCC0059E828 /* LBHomeBottomPlayView.h */,
 				5724147E20511BCC0059E828 /* LBHomeBottomPlayView.m */,
 				5724148020511BDE0059E828 /* LBHomeBottomPlayView.xib */,
+				573C4C062056812A0003611B /* LBSongKindTableViewCell.h */,
+				573C4C072056812A0003611B /* LBSongKindTableViewCell.m */,
+				573C4C082056812A0003611B /* LBSongKindTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2049,6 +2062,7 @@
 				4115B9352052D27D00B669C1 /* LBMyHeaderViewController.xib in Resources */,
 				57B36BC2204E68BB004D710F /* LBMsgCenterTableViewCell.xib in Resources */,
 				41C468942046FA3700AA8BFF /* LBLoginViewController.xib in Resources */,
+				573C4C0A2056812A0003611B /* LBSongKindTableViewCell.xib in Resources */,
 				4163DDED2051985000B8AC7B /* LBRegistTwoViewController.xib in Resources */,
 				41C89050204853340000B7C3 /* LBMyDataTableViewCell.xib in Resources */,
 				57B36BCC204E7763004D710F /* LBQuestionHeaderView.xib in Resources */,
@@ -2228,6 +2242,7 @@
 				41AA5423204D8F24007DA1FA /* UISearchBar+Blocks.m in Sources */,
 				41AA5443204D8F24007DA1FA /* UIViewController+TopBarMessage.m in Sources */,
 				41AA53CF204D8F23007DA1FA /* NSString+Ruby.m in Sources */,
+				573C4C092056812A0003611B /* LBSongKindTableViewCell.m in Sources */,
 				41AA53E1204D8F23007DA1FA /* UIApplication+Permissions.m in Sources */,
 				5724147120510F810059E828 /* LBHomeUpTableViewCell.m in Sources */,
 				41AA53CA204D8F23007DA1FA /* NSString+Matcher.m in Sources */,
@@ -2323,6 +2338,7 @@
 				41AA53F1204D8F23007DA1FA /* UIColor+HEX.m in Sources */,
 				41AA53C9204D8F23007DA1FA /* NSString+Hash.m in Sources */,
 				4163DDDD204EF02E00B8AC7B /* BRDatePickerView.m in Sources */,
+				573C4C05205678380003611B /* LBSongKindViewController.m in Sources */,
 				41AA541E204D8F24007DA1FA /* UIResponder+UIAdapt.m in Sources */,
 				41AA53DD204D8F23007DA1FA /* UIAlertView+Block.m in Sources */,
 				41748A95204857E5004861F7 /* LBSysSettingVC.m in Sources */,

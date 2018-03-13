@@ -11,6 +11,8 @@
 #import "LBHomeUpTableViewCell.h"
 #import "LBHomeDownTableViewCell.h"
 #import "LBHomeCenterHeaderView.h"
+#import "LBHomeBottomPlayView.h"
+#import "LBSongKindViewController.h"
 
 @interface LBHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -31,7 +33,7 @@
     [self setnav];
     
     self.arrImages = @[@"",@"",@"",@""];
-    self.arrTitles = @[@"常见问题",@"意见反馈",@"消息中心",@"系统设置"];
+    self.arrTitles = @[@[@"常见问题",@"意见反馈",@"消息中心",@"系统设置"],@[@"中国风",@"外国风",@"东风",@"西风"]];
     [self setUI];
 }
 
@@ -62,18 +64,16 @@
     
     self.tableView.sectionFooterHeight = 0;
     self.tableView.sectionHeaderHeight = 40;
+    
+    [self setBottomPlayView];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return self.arrTitles.count;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    if (section == 0) {
-        return 3;
-    }else{
-        return 4;
-    }
+    return [self.arrTitles[section] count];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -96,17 +96,60 @@
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
         LBHomeUpTableViewCell * cell1 = [tableView dequeueReusableCellWithIdentifier:@"LBHomeUpTableViewCell" forIndexPath:indexPath];
+        cell1.labelTitle.text = self.arrTitles[indexPath.section][indexPath.row];
         return cell1;
     }else{
         LBHomeDownTableViewCell * cell2 = [tableView dequeueReusableCellWithIdentifier:@"LBHomeDownTableViewCell" forIndexPath:indexPath];
+        cell2.labeltitle.text = self.arrTitles[indexPath.section][indexPath.row];
         return cell2;
     }
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-  
+    LBSongKindViewController * kindVC = [[LBSongKindViewController alloc] init];
+    kindVC.title = self.arrTitles[indexPath.section][indexPath.row];
+    [self.navigationController pushViewController:kindVC animated:YES];
 }
+
+-(void)setBottomPlayView{
+    LBHomeBottomPlayView * playView = [[NSBundle mainBundle] loadNibNamed:@"LBHomeBottomPlayView" owner:nil options:nil].firstObject;
+    
+    UIView * viewCurrProgress = [[UIView alloc] init];
+    viewCurrProgress.backgroundColor = HEXCOLOR(kblueColor);
+    [playView.viewProgressBar addSubview:viewCurrProgress];
+    
+    [self.view addSubview:playView];
+    
+    [viewCurrProgress mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.mas_equalTo(playView.viewProgressBar);
+        make.width.mas_equalTo(playView.viewProgressBar).multipliedBy(0.6);
+    }];
+
+    [playView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.bottom.right.mas_equalTo(self.view);
+        make.height.mas_equalTo(60);
+        
+    }];
+    
+    [playView setHeadImageLookUpBlock:^(UIImage *image) {
+        
+    }];
+    [playView setSongInfoLookUpBlock:^{
+        
+    }];
+    
+    [playView setPlayOrPauseBlock:^(BOOL isPlay) {
+        
+    }];
+    
+    [playView setSongMenuLookUpBlock:^{
+        
+    }];
+    
+}
+
+
 
 
 /*

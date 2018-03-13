@@ -13,6 +13,7 @@
 #import "LBHomeCenterHeaderView.h"
 #import "LBHomeBottomPlayView.h"
 #import "LBSongKindViewController.h"
+#import "LBAddSongsViewController.h"
 
 @interface LBHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -154,6 +155,10 @@
 
 -(void)addNewSongs{
     NSLog(@"这个方法暂定");
+    LBAddSongsViewController * addVC = [[LBAddSongsViewController alloc] init];
+    [self presentViewController:addVC animated:YES completion:^{
+        
+    }];
 }
 
 -(void)setBottomPlayView{

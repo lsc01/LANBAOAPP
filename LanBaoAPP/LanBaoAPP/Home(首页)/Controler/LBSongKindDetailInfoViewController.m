@@ -25,6 +25,7 @@
     [self setUI];
 }
 -(void)setUI{
+    
     self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -41,8 +42,29 @@
     [self.view addSubview:self.listheadView];
     
     UIImageView * imageview = [[UIImageView alloc] initWithImage:self.image];
-    
     [self.view addSubview:imageview];
+    
+    UIButton * buttonClose =[UIButton buttonWithType:UIButtonTypeCustom];
+    [buttonClose setBackgroundImage:[UIImage imageNamed:@"cell_down"] forState:UIControlStateNormal];
+    [buttonClose addTarget:self action:@selector(closebtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:buttonClose];
+    
+    UIButton * buttonLike =[UIButton buttonWithType:UIButtonTypeCustom];
+    [buttonLike setBackgroundImage:[UIImage imageNamed:@"kindCell_dislike"] forState:UIControlStateNormal];
+    [buttonLike setBackgroundImage:[UIImage imageNamed:@"kindCell_like"] forState:UIControlStateSelected];
+    [buttonLike addTarget:self action:@selector(likeBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:buttonLike];
+    
+    [buttonClose mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.view).offset(15);
+        make.height.width.mas_equalTo(25);
+        make.top.mas_equalTo(self.view).offset(isIPhoneX?54:30);
+    }];
+    [buttonLike mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.mas_equalTo(self.view).offset(-15);
+        make.height.width.mas_equalTo(25);
+        make.top.mas_equalTo(self.view).offset(isIPhoneX?54:30);
+    }];
     
     [imageview mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.top.right.mas_equalTo(self.view);
@@ -102,6 +124,9 @@
     }];
 }
 
+-(void)likeBtnClick:(UIButton *)btnLike{
+    btnLike.selected = !btnLike.selected;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

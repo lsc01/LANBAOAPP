@@ -1,14 +1,14 @@
 //
-//  LBHomeCenterHeaderView.m
+//  LBAddNewKindListView.m
 //  LanBaoAPP
 //
-//  Created by lanshichang on 2018/3/8.
+//  Created by lsc on 2018/3/15.
 //  Copyright © 2018年 lsc. All rights reserved.
 //
 
-#import "LBHomeCenterHeaderView.h"
+#import "LBAddNewKindListView.h"
 
-@implementation LBHomeCenterHeaderView
+@implementation LBAddNewKindListView
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -17,12 +17,8 @@
     // Drawing code
 }
 */
--(void)awakeFromNib{
-    [super awakeFromNib];
-    self.contentView.backgroundColor = [UIColor clearColor];
-}
+
 - (IBAction)addNewList:(UIButton *)sender {
     _addNewListBlock?_addNewListBlock():nil;
 }
-
 @end

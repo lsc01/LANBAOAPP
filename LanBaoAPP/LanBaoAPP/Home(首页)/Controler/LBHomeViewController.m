@@ -14,6 +14,8 @@
 #import "LBHomeBottomPlayView.h"
 #import "LBSongKindViewController.h"
 #import "LBAddSongsViewController.h"
+#import "LBAddSongListViewController.h"
+#import "LBPlayMusicViewController.h"
 
 @interface LBHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -93,6 +95,12 @@
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     LBHomeCenterHeaderView * view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"LBHomeCenterHeaderView"];
+    [view setAddNewListBlock:^{
+        LBAddSongListViewController * vc = [[LBAddSongListViewController alloc] init];
+        [self presentViewController:vc animated:YES completion:^{
+            
+        }];
+    }];
     return view;
 }
 
@@ -186,6 +194,10 @@
     }];
     [self.playView setSongInfoLookUpBlock:^{
         NSLog(@"b");
+        LBPlayMusicViewController * vc = [[LBPlayMusicViewController alloc] init];
+        [self presentViewController:vc animated:YES completion:^{
+            
+        }];
     }];
     
     [self.playView setPlayOrPauseBlock:^(BOOL isPlay) {

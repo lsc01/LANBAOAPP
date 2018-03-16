@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LBAddNewKindListView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duO-oA-9cE">
+                    <rect key="frame" x="340" y="46" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="DYk-Fa-ln5"/>
+                        <constraint firstAttribute="width" constant="25" id="c39-HW-25U"/>
+                    </constraints>
+                    <state key="normal" image="cell_add"/>
+                    <connections>
+                        <action selector="addNewList:" destination="iN0-l3-epB" eventType="touchUpInside" id="oLs-lV-BIy"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新建分类" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNI-vx-6eu">
+                    <rect key="frame" x="10" y="49" width="65.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="duO-oA-9cE" secondAttribute="trailing" constant="10" id="FmW-Xk-vKy"/>
+                <constraint firstItem="JNI-vx-6eu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Hzo-9R-vSE"/>
+                <constraint firstItem="duO-oA-9cE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="LBC-15-Kml"/>
+                <constraint firstItem="JNI-vx-6eu" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Pi3-XO-0M0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34.5" y="-221.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cell_add" width="32" height="32"/>
+    </resources>
+</document>

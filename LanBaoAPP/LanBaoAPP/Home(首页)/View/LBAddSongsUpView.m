@@ -19,8 +19,13 @@
 */
 
 - (IBAction)selectAllClick:(UIButton *)sender {
-    sender.selected = !sender.selected;
-    _allSelectedBlock?_allSelectedBlock(sender.selected):nil;
+    if (self.isAllowSelect) {
+        sender.selected = !sender.selected;
+        _allSelectedBlock?_allSelectedBlock(sender.selected):nil;
+    }else{
+        _completeBlock?_completeBlock():nil;
+    }
+    
 }
 - (IBAction)closeBtnClick:(UIButton *)sender {
     _closeViewBlock?_closeViewBlock():nil;

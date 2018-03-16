@@ -244,6 +244,13 @@
 		41E8F1F62045A135007D650C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F52045A135007D650C /* Assets.xcassets */; };
 		41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8F1F72045A135007D650C /* LaunchScreen.storyboard */; };
 		41E8F1FC2045A135007D650C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8F1FB2045A135007D650C /* main.m */; };
+		41FE33DC205AB0A400CA45D5 /* LBAddToListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE33DB205AB0A400CA45D5 /* LBAddToListViewController.m */; };
+		41FE33E0205AB5B300CA45D5 /* LBAddSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE33DE205AB5B300CA45D5 /* LBAddSongListViewController.m */; };
+		41FE33E1205AB5B300CA45D5 /* LBAddSongListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FE33DF205AB5B300CA45D5 /* LBAddSongListViewController.xib */; };
+		41FE33E4205AB80300CA45D5 /* LBAddNewKindListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE33E3205AB80300CA45D5 /* LBAddNewKindListView.m */; };
+		41FE33E6205AB81100CA45D5 /* LBAddNewKindListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FE33E5205AB81100CA45D5 /* LBAddNewKindListView.xib */; };
+		41FE33EA205ABFA000CA45D5 /* LBPlayMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE33E8205ABFA000CA45D5 /* LBPlayMusicViewController.m */; };
+		41FE33EB205ABFA000CA45D5 /* LBPlayMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FE33E9205ABFA000CA45D5 /* LBPlayMusicViewController.xib */; };
 		5724147120510F810059E828 /* LBHomeUpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724146F20510F810059E828 /* LBHomeUpTableViewCell.m */; };
 		5724147220510F810059E828 /* LBHomeUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5724147020510F810059E828 /* LBHomeUpTableViewCell.xib */; };
 		5724147620510F970059E828 /* LBHomeDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724147420510F970059E828 /* LBHomeDownTableViewCell.m */; };
@@ -738,6 +745,17 @@
 		41E8F1F82045A135007D650C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E8F1FA2045A135007D650C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41E8F1FB2045A135007D650C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41FE33DA205AB0A400CA45D5 /* LBAddToListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddToListViewController.h; sourceTree = "<group>"; };
+		41FE33DB205AB0A400CA45D5 /* LBAddToListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddToListViewController.m; sourceTree = "<group>"; };
+		41FE33DD205AB5B300CA45D5 /* LBAddSongListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddSongListViewController.h; sourceTree = "<group>"; };
+		41FE33DE205AB5B300CA45D5 /* LBAddSongListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddSongListViewController.m; sourceTree = "<group>"; };
+		41FE33DF205AB5B300CA45D5 /* LBAddSongListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBAddSongListViewController.xib; sourceTree = "<group>"; };
+		41FE33E2205AB80300CA45D5 /* LBAddNewKindListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAddNewKindListView.h; sourceTree = "<group>"; };
+		41FE33E3205AB80300CA45D5 /* LBAddNewKindListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAddNewKindListView.m; sourceTree = "<group>"; };
+		41FE33E5205AB81100CA45D5 /* LBAddNewKindListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBAddNewKindListView.xib; sourceTree = "<group>"; };
+		41FE33E7205ABFA000CA45D5 /* LBPlayMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBPlayMusicViewController.h; sourceTree = "<group>"; };
+		41FE33E8205ABFA000CA45D5 /* LBPlayMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBPlayMusicViewController.m; sourceTree = "<group>"; };
+		41FE33E9205ABFA000CA45D5 /* LBPlayMusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBPlayMusicViewController.xib; sourceTree = "<group>"; };
 		5724146E20510F810059E828 /* LBHomeUpTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBHomeUpTableViewCell.h; sourceTree = "<group>"; };
 		5724146F20510F810059E828 /* LBHomeUpTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBHomeUpTableViewCell.m; sourceTree = "<group>"; };
 		5724147020510F810059E828 /* LBHomeUpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBHomeUpTableViewCell.xib; sourceTree = "<group>"; };
@@ -1932,6 +1950,14 @@
 				575F9B52205778E50021D0DB /* LBSongKindDetailInfoViewController.xib */,
 				41504DCB205813F000ABE1A5 /* LBAddSongsViewController.h */,
 				41504DCC205813F000ABE1A5 /* LBAddSongsViewController.m */,
+				41FE33DA205AB0A400CA45D5 /* LBAddToListViewController.h */,
+				41FE33DB205AB0A400CA45D5 /* LBAddToListViewController.m */,
+				41FE33DD205AB5B300CA45D5 /* LBAddSongListViewController.h */,
+				41FE33DE205AB5B300CA45D5 /* LBAddSongListViewController.m */,
+				41FE33DF205AB5B300CA45D5 /* LBAddSongListViewController.xib */,
+				41FE33E7205ABFA000CA45D5 /* LBPlayMusicViewController.h */,
+				41FE33E8205ABFA000CA45D5 /* LBPlayMusicViewController.m */,
+				41FE33E9205ABFA000CA45D5 /* LBPlayMusicViewController.xib */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -1966,6 +1992,9 @@
 				41504DD320581A4A00ABE1A5 /* LBAddSongsCell.h */,
 				41504DD420581A4A00ABE1A5 /* LBAddSongsCell.m */,
 				41504DD520581A4A00ABE1A5 /* LBAddSongsCell.xib */,
+				41FE33E2205AB80300CA45D5 /* LBAddNewKindListView.h */,
+				41FE33E3205AB80300CA45D5 /* LBAddNewKindListView.m */,
+				41FE33E5205AB81100CA45D5 /* LBAddNewKindListView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2135,9 +2164,12 @@
 				5724147220510F810059E828 /* LBHomeUpTableViewCell.xib in Resources */,
 				41E8F1F92045A135007D650C /* LaunchScreen.storyboard in Resources */,
 				41C4689A2047031700AA8BFF /* LBForgetPassWordVC.xib in Resources */,
+				41FE33EB205ABFA000CA45D5 /* LBPlayMusicViewController.xib in Resources */,
 				41E8F1F62045A135007D650C /* Assets.xcassets in Resources */,
 				575F9B54205778E50021D0DB /* LBSongKindDetailInfoViewController.xib in Resources */,
 				57B36BC7204E70C2004D710F /* LBMsgCenterHeaderView.xib in Resources */,
+				41FE33E1205AB5B300CA45D5 /* LBAddSongListViewController.xib in Resources */,
+				41FE33E6205AB81100CA45D5 /* LBAddNewKindListView.xib in Resources */,
 				41504DCA20580C5F00ABE1A5 /* LBKindDetailInfoCell.xib in Resources */,
 				41504DD720581A4A00ABE1A5 /* LBAddSongsCell.xib in Resources */,
 				41C89055204853C40000B7C3 /* LBMydataHeadTableViewCell.xib in Resources */,
@@ -2205,6 +2237,7 @@
 				41AA53EF204D8F23007DA1FA /* UIButton+TouchAreaInsets.m in Sources */,
 				41AA53AF204D8F23007DA1FA /* NSDate+Extension.m in Sources */,
 				41AA540A204D8F24007DA1FA /* UIImage+RoundedCorner.m in Sources */,
+				41FE33E0205AB5B300CA45D5 /* LBAddSongListViewController.m in Sources */,
 				41AA5456204D8F24007DA1FA /* NSDictionary+TGGetURLParameters.m in Sources */,
 				41AA53E0204D8F23007DA1FA /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				41AA53D9204D8F23007DA1FA /* NSURL+QueryDictionary.m in Sources */,
@@ -2293,6 +2326,7 @@
 				41AA5438204D8F24007DA1FA /* UIView+Screenshot.m in Sources */,
 				57B36BD5204E7B33004D710F /* LBQuestionModel.m in Sources */,
 				41AA53F5204D8F23007DA1FA /* UIControl+ActionBlocks.m in Sources */,
+				41FE33DC205AB0A400CA45D5 /* LBAddToListViewController.m in Sources */,
 				41AA542D204D8F24007DA1FA /* UITextView+Select.m in Sources */,
 				41AA540F204D8F24007DA1FA /* UIImageView+FaceAwareFill.m in Sources */,
 				41C468992047031700AA8BFF /* LBForgetPassWordVC.m in Sources */,
@@ -2301,6 +2335,8 @@
 				41AA53CD204D8F23007DA1FA /* NSString+RegexCategory.m in Sources */,
 				41AA53F6204D8F23007DA1FA /* UIControl+Block.m in Sources */,
 				41AA53C6204D8F23007DA1FA /* NSString+Emoji.m in Sources */,
+				41FE33EA205ABFA000CA45D5 /* LBPlayMusicViewController.m in Sources */,
+				41FE33E4205AB80300CA45D5 /* LBAddNewKindListView.m in Sources */,
 				41AA5423204D8F24007DA1FA /* UISearchBar+Blocks.m in Sources */,
 				41AA5443204D8F24007DA1FA /* UIViewController+TopBarMessage.m in Sources */,
 				41AA53CF204D8F23007DA1FA /* NSString+Ruby.m in Sources */,

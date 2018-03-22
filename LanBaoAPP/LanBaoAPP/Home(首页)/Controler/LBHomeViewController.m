@@ -16,7 +16,7 @@
 #import "LBAddSongsViewController.h"
 #import "LBAddSongListViewController.h"
 #import "LBPlayMusicViewController.h"
-
+#import "LBConnectionBoxViewController.h"
 @interface LBHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic ,strong) UITableView * tableView;
@@ -34,9 +34,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 //    self.title = @"首页";
+    if (1) {
+        LBConnectionBoxViewController * view = [[LBConnectionBoxViewController alloc] init];
+        [self presentViewController:view animated:YES completion:^{
+            
+        }];
+    }
     
     [self setnav];
-    
     self.arrImages = @[@"",@"",@"",@""];
     self.arrTitles = @[@[@"常见问题",@"意见反馈",@"消息中心",@"系统设置"],@[@"中国风",@"外国风",@"东风",@"西风"]];
     [self setUI];
